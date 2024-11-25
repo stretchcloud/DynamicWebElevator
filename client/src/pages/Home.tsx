@@ -5,12 +5,16 @@ import { Button } from '../components/ui/button';
 import { Zap } from 'lucide-react';
 import { Meteors } from '../components/ui/meteors';
 
+import { SidebarNav } from '../components/ui/sidebar-nav';
+
 export const Home = () => {
   return (
-    <div className="min-h-screen relative overflow-hidden bg-gradient-to-b from-background via-background to-background/80">
-      <div className="relative h-[600px] overflow-hidden">
-        <Meteors className="absolute inset-0" />
-        <main className="container mx-auto px-4 py-12 relative z-10">
+    <div className="flex min-h-screen relative overflow-hidden bg-gradient-to-b from-background via-background to-background/80">
+      <SidebarNav />
+      <div className="flex-1">
+        <div className="relative h-[600px] overflow-hidden">
+          <Meteors className="absolute inset-0" />
+          <main className="container mx-auto px-4 py-12 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -65,6 +69,7 @@ export const Home = () => {
 
       <div className="container mx-auto px-4">
         <CategoryGrid />
+      </div>
       </div>
     </div>
   );
