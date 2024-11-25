@@ -11,6 +11,8 @@ export const Background = () => {
   const targetRotationRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
   const particlesMeshRef = useRef<THREE.Points>();
   const [isInteracting, setIsInteracting] = useState(false);
+  const touchStartRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
+  const lastTouchRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -119,9 +121,67 @@ export const Background = () => {
     };
     animate();
 
+    // Touch event handlers
+    const onTouchStart = (event: TouchEvent) => {
+      const touch = event.touches[0];
+      touchStartRef.current = { x: touch.clientX, y: touch.clientY };
+      lastTouchRef.current = { x: touch.clientX, y: touch.clientY };
+      setIsInteracting(true);
+    };
+
+    const onTouchMove = (event: TouchEvent) => {
+      const touch = event.touches[0];
+      const deltaX = (touch.clientX - lastTouchRef.current.x) * 0.005;
+      const deltaY = (touch.clientY - lastTouchRef.current.y) * 0.005;
+      
+      targetRotationRef.current.y += deltaX;
+      targetRotationRef.current.x += deltaY;
+      
+      lastTouchRef.current = { x: touch.clientX, y: touch.clientY };
+    };
+
+    const onTouchEnd = () => {
+      setIsInteracting(false);
+    };
+
+    // Gesture handlers
+    const onGestureStart = (event: TouchEvent) => {
+      if (event.touches.length === 2) {
+        const touch1 = event.touches[0];
+        const touch2 = event.touches[1];
+        const distance = Math.hypot(
+          touch1.clientX - touch2.clientX,
+          touch1.clientY - touch2.clientY
+        );
+        touchStartRef.current = { x: distance, y: 0 };
+      }
+    };
+
+    const onGestureMove = (event: TouchEvent) => {
+      if (event.touches.length === 2) {
+        const touch1 = event.touches[0];
+        const touch2 = event.touches[1];
+        const distance = Math.hypot(
+          touch1.clientX - touch2.clientX,
+          touch1.clientY - touch2.clientY
+        );
+        
+        const delta = (touchStartRef.current.x - distance) * 0.01;
+        const newZ = cameraRef.current!.position.z + delta;
+        cameraRef.current!.position.z = THREE.MathUtils.clamp(newZ, 3, 10);
+        
+        touchStartRef.current = { x: distance, y: 0 };
+      }
+    };
+
     // Event listeners
     window.addEventListener('mousemove', onMouseMove);
     window.addEventListener('wheel', onScroll);
+    window.addEventListener('touchstart', onTouchStart);
+    window.addEventListener('touchmove', onTouchMove);
+    window.addEventListener('touchend', onTouchEnd);
+    window.addEventListener('gesturestart', onGestureStart as any);
+    window.addEventListener('gesturemove', onGestureMove as any);
 
     // Handle window resize
     const onResize = () => {
@@ -138,6 +198,11 @@ export const Background = () => {
       window.removeEventListener('mousemove', onMouseMove);
       window.removeEventListener('wheel', onScroll);
       window.removeEventListener('resize', onResize);
+      window.removeEventListener('touchstart', onTouchStart);
+      window.removeEventListener('touchmove', onTouchMove);
+      window.removeEventListener('touchend', onTouchEnd);
+      window.removeEventListener('gesturestart', onGestureStart as any);
+      window.removeEventListener('gesturemove', onGestureMove as any);
       if (containerRef.current && renderer.domElement) {
         containerRef.current.removeChild(renderer.domElement);
       }

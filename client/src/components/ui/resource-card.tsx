@@ -16,6 +16,11 @@ export const ResourceCard = ({ title, description, icon, index }: ResourceCardPr
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1 }}
       whileHover={{ scale: 1.05, rotateY: 5 }}
+      whileTap={{ scale: 0.95 }}
+      drag
+      dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+      dragElastic={0.1}
+      dragSnapToOrigin
       className="h-full"
     >
       <Card className={cn(
