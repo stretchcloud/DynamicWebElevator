@@ -21,14 +21,17 @@ function parseResourcesMd(): Resource[] {
   let currentDescription = '';
 
   const defaultIcons: Record<string, string> = {
-    'GitHub Repositories': '/icons/github.svg',
-    'Data Processing Tools': '/icons/database.svg',
-    'Open Source Apps / Projects': '/icons/app.svg',
-    'Datasets': '/icons/table.svg',
-    'Open Source Models': '/icons/box.svg',
-    'LLM Leaderboards': '/icons/trophy.svg',
-    'LLM Communities': '/icons/users.svg',
-    'LLM Deployment': '/icons/cloud.svg',
+    'Data': '/icons/database.svg',
+    'Fine-Tuning': '/icons/settings.svg',
+    'Inference': '/icons/cpu.svg',
+    'Evaluation': '/icons/chart.svg',
+    'Experience Usage': '/icons/activity.svg',
+    'Knowledge BaseRAG': '/icons/brain.svg',
+    'Agents': '/icons/bot.svg',
+    'Book': '/icons/book.svg',
+    'Course': '/icons/graduation.svg',
+    'Tutorial': '/icons/video.svg',
+    'Paper': '/icons/file.svg'
   };
 
   for (let i = 0; i < lines.length; i++) {

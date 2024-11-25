@@ -14,7 +14,14 @@ import {
   Trophy,
   Users,
   Cloud,
-  Menu
+  Menu,
+  Settings,
+  Cpu,
+  BarChart,
+  Activity,
+  Brain,
+  Bot,
+  BookOpen
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from './button';
@@ -47,65 +54,60 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
 
   const categories = [
     {
-      id: 'Free Resources',
-      title: 'Free Resources',
-      icon: <Book className="w-4 h-4" />,
-    },
-    {
-      id: 'Video Tutorials',
-      title: 'Video Tutorials',
-      icon: <Video className="w-4 h-4" />,
-    },
-    {
-      id: 'Academic Courses',
-      title: 'Academic Courses',
-      icon: <GraduationCap className="w-4 h-4" />,
-    },
-    {
-      id: 'Research Papers',
-      title: 'Research Papers',
-      icon: <FileText className="w-4 h-4" />,
-    },
-    {
-      id: 'GitHub Repositories',
-      title: 'GitHub Repositories',
-      icon: <Github className="w-4 h-4" />,
-    },
-    {
-      id: 'Data Processing Tools',
-      title: 'Data Processing Tools',
+      id: 'Data',
+      title: 'Data',
       icon: <Database className="w-4 h-4" />,
     },
     {
-      id: 'Open Source Apps / Projects',
-      title: 'Open Source Apps / Projects',
-      icon: <AppWindow className="w-4 h-4" />,
+      id: 'Fine-Tuning',
+      title: 'Fine-Tuning',
+      icon: <Settings className="w-4 h-4" />,
     },
     {
-      id: 'Datasets',
-      title: 'Datasets',
-      icon: <Table className="w-4 h-4" />,
+      id: 'Inference',
+      title: 'Inference',
+      icon: <Cpu className="w-4 h-4" />,
     },
     {
-      id: 'Open Source Models',
-      title: 'Open Source Models',
-      icon: <Box className="w-4 h-4" />,
+      id: 'Evaluation',
+      title: 'Evaluation',
+      icon: <BarChart className="w-4 h-4" />,
     },
     {
-      id: 'LLM Leaderboards',
-      title: 'LLM Leaderboards',
-      icon: <Trophy className="w-4 h-4" />,
+      id: 'Experience Usage',
+      title: 'Experience Usage',
+      icon: <Activity className="w-4 h-4" />,
     },
     {
-      id: 'LLM Communities',
-      title: 'LLM Communities',
-      icon: <Users className="w-4 h-4" />,
+      id: 'Knowledge BaseRAG',
+      title: 'Knowledge BaseRAG',
+      icon: <Brain className="w-4 h-4" />,
     },
     {
-      id: 'LLM Deployment',
-      title: 'LLM Deployment',
-      icon: <Cloud className="w-4 h-4" />,
+      id: 'Agents',
+      title: 'Agents',
+      icon: <Bot className="w-4 h-4" />,
     },
+    {
+      id: 'Book',
+      title: 'Book',
+      icon: <BookOpen className="w-4 h-4" />,
+    },
+    {
+      id: 'Course',
+      title: 'Course',
+      icon: <GraduationCap className="w-4 h-4" />,
+    },
+    {
+      id: 'Tutorial',
+      title: 'Tutorial',
+      icon: <Video className="w-4 h-4" />,
+    },
+    {
+      id: 'Paper',
+      title: 'Paper',
+      icon: <FileText className="w-4 h-4" />,
+    }
   ];
 
   return (
