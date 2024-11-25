@@ -21,18 +21,24 @@ function parseResourcesMd(): Resource[] {
   let currentDescription = '';
 
   const categoryDescriptions: { [key: string]: string } = {
-    "GitHub Repositories": "Essential GitHub repositories for LLM development, training, and deployment",
-    "Data Processing Tools": "Tools and utilities for processing, cleaning, and preparing LLM training data",
+    "Data": "Tools and methods for processing and preparing LLM training data",
+    "Fine-Tuning": "Tools and frameworks for fine-tuning large language models",
+    "Inference": "Frameworks and tools for LLM inference and deployment",
+    "Evaluation": "Tools and methods for evaluating LLM performance",
+    "Experience Usage": "Practical applications and usage examples of LLMs",
+    "Knowledge BaseRAG": "Retrieval-Augmented Generation tools and implementations",
+    "Agents": "LLM-powered autonomous agents and frameworks",
+    "Search": "Search and retrieval tools for LLM applications",
+    "Book": "Books and reading materials about LLMs",
+    "Course": "Educational courses and learning resources",
+    "Tutorial": "Tutorials and guides for LLM development",
+    "GitHub Repositories": "Essential GitHub repositories for LLM development",
     "Open Source Apps / Projects": "Ready-to-use applications and implementations",
-    "Datasets": "High-quality datasets and data collections for LLM training",
-    "Open Source Models": "Collection of open source large language models available for research and deployment",
-    "LLM Leaderboards": "Top benchmarks and leaderboards for comparing LLM performance across different tasks",
-    "LLM Communities": "Active communities and forums for LLM developers, researchers, and enthusiasts",
-    "LLM Deployment": "Tools, frameworks, and platforms for deploying and serving LLM applications",
-    "Free Resources": "Free learning materials and resources for LLM development",
-    "Video Tutorials": "Video-based learning content for LLM concepts and implementation",
-    "Academic Courses": "University and professional courses on LLM development",
-    "Research Papers": "Academic papers and publications on LLM research"
+    "Datasets": "High-quality datasets for LLM training",
+    "Open Source Models": "Collection of open source language models",
+    "LLM Leaderboards": "Benchmarks for comparing LLM performance",
+    "LLM Communities": "Communities and forums for LLM developers",
+    "LLM Deployment": "Tools for deploying LLM applications"
   };
 
   for (let i = 0; i < lines.length; i++) {
@@ -56,9 +62,22 @@ function parseResourcesMd(): Resource[] {
     // Parse section headers
     else if (line.startsWith('## ')) {
       currentCategory = line.replace('## ', '').split(' ')[0].trim();
-      if (currentCategory === "微调") currentCategory = "Fine-Tuning";
-      else if (currentCategory === "推理") currentCategory = "Inference";
-      else if (currentCategory === "数据") currentCategory = "Data Processing Tools";
+      // Map Chinese categories to English
+      const categoryMapping: { [key: string]: string } = {
+        "微调": "Fine-Tuning",
+        "推理": "Inference",
+        "数据": "Data",
+        "评估": "Evaluation",
+        "体验": "Experience Usage",
+        "知识库": "Knowledge BaseRAG",
+        "智能体": "Agents",
+        "搜索": "Search",
+        "书籍": "Book",
+        "课程": "Course",
+        "教程": "Tutorial"
+      };
+      
+      currentCategory = categoryMapping[currentCategory] || currentCategory;
       
       currentDescription = categoryDescriptions[currentCategory] || '';
     }

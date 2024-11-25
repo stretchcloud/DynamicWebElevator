@@ -14,7 +14,14 @@ import {
   Trophy,
   Users,
   Cloud,
-  Menu
+  Menu,
+  Settings,
+  Cpu,
+  LineChart,
+  UserCheck,
+  BookOpen,
+  Bot,
+  Search
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from './button';
@@ -47,14 +54,64 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
 
   const categories = [
     {
+      id: 'Data',
+      title: 'Data',
+      icon: <Database className="w-4 h-4" />,
+    },
+    {
+      id: 'Fine-Tuning',
+      title: 'Fine-Tuning',
+      icon: <Settings className="w-4 h-4" />,
+    },
+    {
+      id: 'Inference',
+      title: 'Inference',
+      icon: <Cpu className="w-4 h-4" />,
+    },
+    {
+      id: 'Evaluation',
+      title: 'Evaluation',
+      icon: <LineChart className="w-4 h-4" />,
+    },
+    {
+      id: 'Experience Usage',
+      title: 'Experience Usage',
+      icon: <UserCheck className="w-4 h-4" />,
+    },
+    {
+      id: 'Knowledge BaseRAG',
+      title: 'Knowledge BaseRAG',
+      icon: <BookOpen className="w-4 h-4" />,
+    },
+    {
+      id: 'Agents',
+      title: 'Agents',
+      icon: <Bot className="w-4 h-4" />,
+    },
+    {
+      id: 'Search',
+      title: 'Search',
+      icon: <Search className="w-4 h-4" />,
+    },
+    {
+      id: 'Book',
+      title: 'Book',
+      icon: <Book className="w-4 h-4" />,
+    },
+    {
+      id: 'Course',
+      title: 'Course',
+      icon: <GraduationCap className="w-4 h-4" />,
+    },
+    {
+      id: 'Tutorial',
+      title: 'Tutorial',
+      icon: <Video className="w-4 h-4" />,
+    },
+    {
       id: 'GitHub Repositories',
       title: 'GitHub Repositories',
       icon: <Github className="w-4 h-4" />,
-    },
-    {
-      id: 'Data Processing Tools',
-      title: 'Data Processing Tools',
-      icon: <Database className="w-4 h-4" />,
     },
     {
       id: 'Open Source Apps / Projects',
@@ -85,26 +142,6 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
       id: 'LLM Deployment',
       title: 'LLM Deployment',
       icon: <Cloud className="w-4 h-4" />,
-    },
-    {
-      id: 'Free Resources',
-      title: 'Free Resources',
-      icon: <Book className="w-4 h-4" />,
-    },
-    {
-      id: 'Video Tutorials',
-      title: 'Video Tutorials',
-      icon: <Video className="w-4 h-4" />,
-    },
-    {
-      id: 'Academic Courses',
-      title: 'Academic Courses',
-      icon: <GraduationCap className="w-4 h-4" />,
-    },
-    {
-      id: 'Research Papers',
-      title: 'Research Papers',
-      icon: <FileText className="w-4 h-4" />,
     },
   ];
 
