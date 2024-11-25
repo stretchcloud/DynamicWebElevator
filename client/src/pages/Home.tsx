@@ -23,7 +23,7 @@ export const Home = () => {
               <motion.h1
                 initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
-                className="text-4xl md:text-6xl font-bold"
+                className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary/80 via-primary to-primary/80"
               >
                 Welcome to LLM Resources Hub
               </motion.h1>
@@ -34,8 +34,9 @@ export const Home = () => {
                 transition={{ delay: 0.2 }}
                 className="text-lg text-muted-foreground max-w-2xl mx-auto"
               >
-                Your one-stop destination for all the resources you need to excel in your
-                LLM program.
+                Discover a curated collection of resources for Large Language Models - 
+                from academic courses and research papers to hands-on tutorials and deployment tools. 
+                Start your journey into the world of LLMs today.
               </motion.p>
 
               <motion.div
