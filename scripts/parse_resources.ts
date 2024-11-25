@@ -20,17 +20,6 @@ function parseResourcesMd(): Resource[] {
   let currentCategory = '';
   let currentDescription = '';
 
-  const defaultIcons: Record<string, string> = {
-    'GitHub Repositories': '/icons/github.svg',
-    'Data Processing Tools': '/icons/database.svg',
-    'Open Source Apps / Projects': '/icons/app.svg',
-    'Datasets': '/icons/table.svg',
-    'Open Source Models': '/icons/box.svg',
-    'LLM Leaderboards': '/icons/trophy.svg',
-    'LLM Communities': '/icons/users.svg',
-    'LLM Deployment': '/icons/cloud.svg',
-  };
-
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     
@@ -39,22 +28,22 @@ function parseResourcesMd(): Resource[] {
       currentCategory = line.replace('### ', '').trim();
       // Get description from the next non-empty line
       let j = i + 1;
-      while (j < lines.length && !lines[j].trim() || lines[j].trim().startsWith('[')) j++;
+      while (j < lines.length && !lines[j].trim()) j++;
       currentDescription = lines[j]?.trim() || '';
       continue;
     }
 
-    // Parse resource links (numbered or bullet points)
-    if (/^(\d+\.|-)/.test(line)) {
-      const linkMatch = line.match(/\[(.*?)\]\((.*?)\)/);
+    // Parse resource links
+    if (line.startsWith('- ')) {
+      const linkMatch = line.match(/!\[.*?\]\((.*?)\)\s+\[(.*?)\]\((.*?)\)/);
       if (linkMatch) {
-        const [, title, url] = linkMatch;
+        const [, iconUrl, title, url] = linkMatch;
         resources.push({
           title,
           url,
           description: currentDescription,
           category: currentCategory,
-          icon_url: defaultIcons[currentCategory] || '/icons/link.svg'
+          icon_url: iconUrl
         });
       }
     }
