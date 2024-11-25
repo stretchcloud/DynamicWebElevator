@@ -20,6 +20,7 @@ function parseResourcesMd(): Resource[] {
   let currentCategory = '';
   let currentDescription = '';
 
+  // Category descriptions and mappings
   const categoryDescriptions: { [key: string]: string } = {
     "Data": "Tools and methods for processing and preparing LLM training data",
     "Fine-Tuning": "Tools and frameworks for fine-tuning large language models",
@@ -49,20 +50,28 @@ function parseResourcesMd(): Resource[] {
       const match = line.match(/\[(.*?)\]\((.*?)\)/);
       if (match) {
         const [, title, url] = match;
-        const description = line.split(':')[1]?.trim() || '';
-        resources.push({
-          title,
-          url,
-          description: description || currentDescription,
-          category: currentCategory,
-          icon_url: `/icons/${currentCategory.toLowerCase().replace(/\s+/g, '-')}.svg`
-        });
+        // Extract description after the URL, looking for content after ): or just :
+        let description = '';
+        const descMatch = line.match(/\):\s*(.*?)$/) || line.match(/:\s*(.*?)$/);
+        if (descMatch) {
+          description = descMatch[1].trim();
+        }
+        
+        // Only add resource if we have a valid category
+        if (currentCategory && categoryDescriptions[currentCategory]) {
+          resources.push({
+            title,
+            url,
+            description: description || currentDescription,
+            category: currentCategory,
+            icon_url: `/icons/${currentCategory.toLowerCase().replace(/\s+/g, '-')}.svg`
+          });
+        }
       }
     }
     // Parse section headers
     else if (line.startsWith('## ')) {
-      currentCategory = line.replace('## ', '').split(' ')[0].trim();
-      // Map Chinese categories to English
+      const headerText = line.replace('## ', '').trim();
       const categoryMapping: { [key: string]: string } = {
         "微调": "Fine-Tuning",
         "推理": "Inference",
@@ -77,8 +86,11 @@ function parseResourcesMd(): Resource[] {
         "教程": "Tutorial"
       };
       
-      currentCategory = categoryMapping[currentCategory] || currentCategory;
+      // Extract category name from header
+      let category = headerText.split(' ')[0];
+      currentCategory = categoryMapping[category] || category;
       
+      // Set description if available
       currentDescription = categoryDescriptions[currentCategory] || '';
     }
   }
