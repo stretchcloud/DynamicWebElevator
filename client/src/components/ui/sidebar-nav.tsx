@@ -53,6 +53,7 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
   }, [selectedCategory, setSelectedCategory]);
 
   const categories = [
+    // New categories
     {
       id: 'Data',
       title: 'Data',
@@ -108,10 +109,16 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
       title: 'Tutorial',
       icon: <Video className="w-4 h-4" />,
     },
+    // Existing categories
     {
       id: 'GitHub Repositories',
       title: 'GitHub Repositories',
       icon: <Github className="w-4 h-4" />,
+    },
+    {
+      id: 'Data Processing Tools',
+      title: 'Data Processing Tools',
+      icon: <Database className="w-4 h-4" />,
     },
     {
       id: 'Open Source Apps / Projects',
