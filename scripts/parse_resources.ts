@@ -64,19 +64,9 @@ function parseResourcesMd(): Resource[] {
             url,
             description: description || currentDescription,
             category: currentCategory,
-            icon_url: (() => {
-              try {
-                if (url.includes('github.com')) {
-                  const [org, repo] = url.split('github.com/')[1].split('/');
-                  return `https://github.com/${org}/${repo}/raw/main/icon.png`;
-                }
-                const urlObj = new URL(url);
-                return `${urlObj.protocol}//${urlObj.hostname}/favicon.ico`;
-              } catch (error) {
-                // Default to a generic icon if URL parsing fails
-                return '/icons/default.png';
-              }
-            })()
+            icon_url: url.includes('github.com') 
+              ? `${url.replace('github.com', 'raw.githubusercontent.com')}/main/favicon.ico`
+              : new URL(url).origin + '/favicon.ico'
           });
         }
       }
