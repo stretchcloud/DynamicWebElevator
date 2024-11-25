@@ -25,7 +25,7 @@ export const Home = () => {
                 animate={{ scale: 1 }}
                 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary/80 via-primary to-primary/80"
               >
-                Welcome to LLM Resources Hub
+                The Ultimate AI/ML Resources Hub: Master AI Language Models in 2024
               </motion.h1>
               
               <motion.p
@@ -34,9 +34,9 @@ export const Home = () => {
                 transition={{ delay: 0.2 }}
                 className="text-lg text-muted-foreground max-w-2xl mx-auto"
               >
-                Discover a curated collection of resources for Large Language Models - 
-                from academic courses and research papers to hands-on tutorials and deployment tools. 
-                Start your journey into the world of LLMs today.
+                Embark on your AI journey with our comprehensive collection of cutting-edge resources. 
+                Whether you're a beginner or an expert, discover everything you need to master Large 
+                Language Models and stay ahead in the rapidly evolving field of AI.
               </motion.p>
 
               <motion.div
