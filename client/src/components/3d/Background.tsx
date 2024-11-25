@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { motion } from 'framer-motion';
 
@@ -7,12 +7,8 @@ export const Background = () => {
   const sceneRef = useRef<THREE.Scene>();
   const cameraRef = useRef<THREE.PerspectiveCamera>();
   const rendererRef = useRef<THREE.WebGLRenderer>();
+  const gridRef = useRef<THREE.Group>();
   const mouseRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
-  const targetRotationRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
-  const particlesMeshRef = useRef<THREE.Points>();
-  const [isInteracting, setIsInteracting] = useState(false);
-  const touchStartRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
-  const lastTouchRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -21,167 +17,87 @@ export const Background = () => {
     const scene = new THREE.Scene();
     sceneRef.current = scene;
 
-    // Camera setup with enhanced FOV for better depth perception
+    // Camera setup
     const camera = new THREE.PerspectiveCamera(
-      85,
+      75,
       window.innerWidth / window.innerHeight,
       0.1,
       1000
     );
-    camera.position.z = 5;
+    camera.position.z = 15;
+    camera.position.y = 5;
+    camera.rotation.x = -0.3;
     cameraRef.current = camera;
 
-    // Renderer setup with improved settings
-    const renderer = new THREE.WebGLRenderer({ 
-      alpha: true, 
+    // Renderer setup
+    const renderer = new THREE.WebGLRenderer({
+      alpha: true,
       antialias: true,
-      powerPreference: "high-performance"
     });
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     containerRef.current.appendChild(renderer.domElement);
     rendererRef.current = renderer;
 
-    // Enhanced particle system
-    const particlesGeometry = new THREE.BufferGeometry();
-    const particlesCount = 8000;
-    const posArray = new Float32Array(particlesCount * 3);
-    const velocityArray = new Float32Array(particlesCount * 3);
+    // Grid setup
+    const gridGroup = new THREE.Group();
+    gridRef.current = gridGroup;
 
-    for (let i = 0; i < particlesCount * 3; i += 3) {
-      // Position
-      posArray[i] = (Math.random() - 0.5) * 15;
-      posArray[i + 1] = (Math.random() - 0.5) * 15;
-      posArray[i + 2] = (Math.random() - 0.5) * 15;
-      
-      // Velocity
-      velocityArray[i] = (Math.random() - 0.5) * 0.02;
-      velocityArray[i + 1] = (Math.random() - 0.5) * 0.02;
-      velocityArray[i + 2] = (Math.random() - 0.5) * 0.02;
-    }
+    // Create horizontal grid lines
+    const gridSize = 40;
+    const gridDivisions = 20;
+    const gridStep = gridSize / gridDivisions;
 
-    particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-    particlesGeometry.setAttribute('velocity', new THREE.BufferAttribute(velocityArray, 3));
-
-    const particlesMaterial = new THREE.PointsMaterial({
-      size: 0.008,
-      color: '#5B8FB9',
+    // Material for grid lines
+    const lineMaterial = new THREE.LineBasicMaterial({
+      color: new THREE.Color('#5B8FB9'),
       transparent: true,
-      opacity: 0.8,
-      blending: THREE.AdditiveBlending,
+      opacity: 0.5,
     });
 
-    const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
-    particlesMeshRef.current = particlesMesh;
-    scene.add(particlesMesh);
+    // Create horizontal lines
+    for (let i = -gridSize/2; i <= gridSize/2; i += gridStep) {
+      const geometry = new THREE.BufferGeometry().setFromPoints([
+        new THREE.Vector3(-gridSize/2, 0, i),
+        new THREE.Vector3(gridSize/2, 0, i),
+      ]);
+      const line = new THREE.Line(geometry, lineMaterial);
+      gridGroup.add(line);
+    }
+
+    // Create vertical lines
+    for (let i = -gridSize/2; i <= gridSize/2; i += gridStep) {
+      const geometry = new THREE.BufferGeometry().setFromPoints([
+        new THREE.Vector3(i, 0, -gridSize/2),
+        new THREE.Vector3(i, 0, gridSize/2),
+      ]);
+      const line = new THREE.Line(geometry, lineMaterial);
+      gridGroup.add(line);
+    }
+
+    scene.add(gridGroup);
 
     // Mouse movement handler
     const onMouseMove = (event: MouseEvent) => {
       mouseRef.current.x = (event.clientX / window.innerWidth) * 2 - 1;
       mouseRef.current.y = -(event.clientY / window.innerHeight) * 2 + 1;
-
-      targetRotationRef.current.x = mouseRef.current.y * 0.5;
-      targetRotationRef.current.y = mouseRef.current.x * 0.5;
     };
 
-    // Zoom handler
-    const onScroll = (event: WheelEvent) => {
-      const newZ = camera.position.z + event.deltaY * 0.005;
-      camera.position.z = THREE.MathUtils.clamp(newZ, 3, 10);
-    };
-
-    // Interactive animation
+    // Animation
     const animate = () => {
       requestAnimationFrame(animate);
 
-      if (particlesMeshRef.current && cameraRef.current) {
-        // Smooth camera rotation
-        particlesMeshRef.current.rotation.x += (targetRotationRef.current.x - particlesMeshRef.current.rotation.x) * 0.05;
-        particlesMeshRef.current.rotation.y += (targetRotationRef.current.y - particlesMeshRef.current.rotation.y) * 0.05;
-
-        // Update particle positions
-        const positions = particlesMeshRef.current.geometry.attributes.position;
-        const velocities = particlesMeshRef.current.geometry.attributes.velocity;
-
-        for (let i = 0; i < positions.count * 3; i += 3) {
-          positions.array[i] += (velocities.array[i] as number);
-          positions.array[i + 1] += (velocities.array[i + 1] as number);
-          positions.array[i + 2] += (velocities.array[i + 2] as number);
-
-          // Boundary check
-          if (Math.abs(positions.array[i]) > 7.5) velocities.array[i] *= -1;
-          if (Math.abs(positions.array[i + 1]) > 7.5) velocities.array[i + 1] *= -1;
-          if (Math.abs(positions.array[i + 2]) > 7.5) velocities.array[i + 2] *= -1;
-        }
-
-        positions.needsUpdate = true;
+      if (gridRef.current) {
+        // Subtle floating animation
+        gridRef.current.position.y = Math.sin(Date.now() * 0.001) * 0.2;
+        // Subtle rotation based on mouse position
+        gridRef.current.rotation.x = mouseRef.current.y * 0.1;
+        gridRef.current.rotation.y = mouseRef.current.x * 0.1;
       }
 
       renderer.render(scene, camera);
     };
     animate();
-
-    // Touch event handlers
-    const onTouchStart = (event: TouchEvent) => {
-      const touch = event.touches[0];
-      touchStartRef.current = { x: touch.clientX, y: touch.clientY };
-      lastTouchRef.current = { x: touch.clientX, y: touch.clientY };
-      setIsInteracting(true);
-    };
-
-    const onTouchMove = (event: TouchEvent) => {
-      const touch = event.touches[0];
-      const deltaX = (touch.clientX - lastTouchRef.current.x) * 0.005;
-      const deltaY = (touch.clientY - lastTouchRef.current.y) * 0.005;
-      
-      targetRotationRef.current.y += deltaX;
-      targetRotationRef.current.x += deltaY;
-      
-      lastTouchRef.current = { x: touch.clientX, y: touch.clientY };
-    };
-
-    const onTouchEnd = () => {
-      setIsInteracting(false);
-    };
-
-    // Gesture handlers
-    const onGestureStart = (event: TouchEvent) => {
-      if (event.touches.length === 2) {
-        const touch1 = event.touches[0];
-        const touch2 = event.touches[1];
-        const distance = Math.hypot(
-          touch1.clientX - touch2.clientX,
-          touch1.clientY - touch2.clientY
-        );
-        touchStartRef.current = { x: distance, y: 0 };
-      }
-    };
-
-    const onGestureMove = (event: TouchEvent) => {
-      if (event.touches.length === 2) {
-        const touch1 = event.touches[0];
-        const touch2 = event.touches[1];
-        const distance = Math.hypot(
-          touch1.clientX - touch2.clientX,
-          touch1.clientY - touch2.clientY
-        );
-        
-        const delta = (touchStartRef.current.x - distance) * 0.01;
-        const newZ = cameraRef.current!.position.z + delta;
-        cameraRef.current!.position.z = THREE.MathUtils.clamp(newZ, 3, 10);
-        
-        touchStartRef.current = { x: distance, y: 0 };
-      }
-    };
-
-    // Event listeners
-    window.addEventListener('mousemove', onMouseMove);
-    window.addEventListener('wheel', onScroll);
-    window.addEventListener('touchstart', onTouchStart);
-    window.addEventListener('touchmove', onTouchMove);
-    window.addEventListener('touchend', onTouchEnd);
-    window.addEventListener('gesturestart', onGestureStart as any);
-    window.addEventListener('gesturemove', onGestureMove as any);
 
     // Handle window resize
     const onResize = () => {
@@ -191,18 +107,15 @@ export const Background = () => {
         rendererRef.current.setSize(window.innerWidth, window.innerHeight);
       }
     };
+
+    // Event listeners
+    window.addEventListener('mousemove', onMouseMove);
     window.addEventListener('resize', onResize);
 
     // Cleanup
     return () => {
       window.removeEventListener('mousemove', onMouseMove);
-      window.removeEventListener('wheel', onScroll);
       window.removeEventListener('resize', onResize);
-      window.removeEventListener('touchstart', onTouchStart);
-      window.removeEventListener('touchmove', onTouchMove);
-      window.removeEventListener('touchend', onTouchEnd);
-      window.removeEventListener('gesturestart', onGestureStart as any);
-      window.removeEventListener('gesturemove', onGestureMove as any);
       if (containerRef.current && renderer.domElement) {
         containerRef.current.removeChild(renderer.domElement);
       }
@@ -210,14 +123,12 @@ export const Background = () => {
   }, []);
 
   return (
-    <motion.div 
+    <motion.div
       ref={containerRef}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="fixed inset-0 -z-10"
-      onMouseEnter={() => setIsInteracting(true)}
-      onMouseLeave={() => setIsInteracting(false)}
+      className="fixed inset-0 -z-10 bg-gradient-to-b from-background/50 to-background"
     />
   );
 };
