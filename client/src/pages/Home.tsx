@@ -39,56 +39,7 @@ export const Home = () => {
                 and stay ahead in the rapidly evolving field of AI.
               </motion.p>
 
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.3 }}
-                className="mt-8 space-y-6 max-w-2xl mx-auto text-left"
-              >
-                <div className="space-y-2">
-                  <h2 className="text-xl font-semibold text-primary">Transform your AI journey with access to:</h2>
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-muted-foreground">
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Comprehensive LLM Tutorials</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Academic Research Papers</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Industry Best Practices</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Deployment Strategies</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="space-y-2">
-                  <h2 className="text-xl font-semibold text-primary">Featured Resources Include:</h2>
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-muted-foreground">
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Latest LLM Research Papers</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Model Training Guides</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Optimization Techniques</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
-                      <span>Real-world Applications</span>
-                    </li>
-                  </ul>
-                </div>
-              </motion.div>
+              
 
               <motion.div
                 initial={{ opacity: 0 }}
@@ -119,7 +70,61 @@ export const Home = () => {
             </motion.div>
           </main>
         </div>
-        <div className="px-4 pb-4">
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="container mx-auto px-4 py-8 bg-background/50 backdrop-blur-sm border-y border-border/50"
+        >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="space-y-2">
+              <h2 className="text-xl font-semibold text-primary">Transform your AI journey with access to:</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Comprehensive LLM Tutorials</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Academic Research Papers</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Industry Best Practices</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Deployment Strategies</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="space-y-2">
+              <h2 className="text-xl font-semibold text-primary">Featured Resources Include:</h2>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Latest LLM Research Papers</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Model Training Guides</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Optimization Techniques</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/70"></span>
+                  <span>Real-world Applications</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </motion.div>
+
+        <div className="container mx-auto px-4 py-8">
           <CategoryGrid />
         </div>
       </div>
