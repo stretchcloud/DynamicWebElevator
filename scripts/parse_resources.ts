@@ -20,32 +20,47 @@ function parseResourcesMd(): Resource[] {
   let currentCategory = '';
   let currentDescription = '';
 
+  const categoryDescriptions: { [key: string]: string } = {
+    "GitHub Repositories": "Essential GitHub repositories for LLM development, training, and deployment",
+    "Data Processing Tools": "Tools and utilities for processing, cleaning, and preparing LLM training data",
+    "Open Source Apps / Projects": "Ready-to-use applications and implementations",
+    "Datasets": "High-quality datasets and data collections for LLM training",
+    "Open Source Models": "Collection of open source large language models available for research and deployment",
+    "LLM Leaderboards": "Top benchmarks and leaderboards for comparing LLM performance across different tasks",
+    "LLM Communities": "Active communities and forums for LLM developers, researchers, and enthusiasts",
+    "LLM Deployment": "Tools, frameworks, and platforms for deploying and serving LLM applications",
+    "Free Resources": "Free learning materials and resources for LLM development",
+    "Video Tutorials": "Video-based learning content for LLM concepts and implementation",
+    "Academic Courses": "University and professional courses on LLM development",
+    "Research Papers": "Academic papers and publications on LLM research"
+  };
+
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     
-    // Parse category headers (### Category Name)
-    if (line.startsWith('### ')) {
-      currentCategory = line.replace('### ', '').trim();
-      // Get description from the next non-empty line
-      let j = i + 1;
-      while (j < lines.length && !lines[j].trim()) j++;
-      currentDescription = lines[j]?.trim() || '';
-      continue;
-    }
-
-    // Parse resource links
-    if (line.startsWith('- ')) {
-      const linkMatch = line.match(/!\[.*?\]\((.*?)\)\s+\[(.*?)\]\((.*?)\)/);
-      if (linkMatch) {
-        const [, iconUrl, title, url] = linkMatch;
+    // Parse numbered resource items
+    if (/^\d+\.\s/.test(line)) {
+      const match = line.match(/\[(.*?)\]\((.*?)\)/);
+      if (match) {
+        const [, title, url] = match;
+        const description = line.split(':')[1]?.trim() || '';
         resources.push({
           title,
           url,
-          description: currentDescription,
+          description: description || currentDescription,
           category: currentCategory,
-          icon_url: iconUrl
+          icon_url: `/icons/${currentCategory.toLowerCase().replace(/\s+/g, '-')}.svg`
         });
       }
+    }
+    // Parse section headers
+    else if (line.startsWith('## ')) {
+      currentCategory = line.replace('## ', '').split(' ')[0].trim();
+      if (currentCategory === "微调") currentCategory = "Fine-Tuning";
+      else if (currentCategory === "推理") currentCategory = "Inference";
+      else if (currentCategory === "数据") currentCategory = "Data Processing Tools";
+      
+      currentDescription = categoryDescriptions[currentCategory] || '';
     }
   }
 

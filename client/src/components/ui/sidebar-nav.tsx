@@ -47,26 +47,6 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
 
   const categories = [
     {
-      id: 'Free Resources',
-      title: 'Free Resources',
-      icon: <Book className="w-4 h-4" />,
-    },
-    {
-      id: 'Video Tutorials',
-      title: 'Video Tutorials',
-      icon: <Video className="w-4 h-4" />,
-    },
-    {
-      id: 'Academic Courses',
-      title: 'Academic Courses',
-      icon: <GraduationCap className="w-4 h-4" />,
-    },
-    {
-      id: 'Research Papers',
-      title: 'Research Papers',
-      icon: <FileText className="w-4 h-4" />,
-    },
-    {
       id: 'GitHub Repositories',
       title: 'GitHub Repositories',
       icon: <Github className="w-4 h-4" />,
@@ -105,6 +85,26 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
       id: 'LLM Deployment',
       title: 'LLM Deployment',
       icon: <Cloud className="w-4 h-4" />,
+    },
+    {
+      id: 'Free Resources',
+      title: 'Free Resources',
+      icon: <Book className="w-4 h-4" />,
+    },
+    {
+      id: 'Video Tutorials',
+      title: 'Video Tutorials',
+      icon: <Video className="w-4 h-4" />,
+    },
+    {
+      id: 'Academic Courses',
+      title: 'Academic Courses',
+      icon: <GraduationCap className="w-4 h-4" />,
+    },
+    {
+      id: 'Research Papers',
+      title: 'Research Papers',
+      icon: <FileText className="w-4 h-4" />,
     },
   ];
 
