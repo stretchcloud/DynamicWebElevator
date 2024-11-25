@@ -60,13 +60,13 @@ export const Home = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
-              className="mb-12"
+              className="mb-6"
             >
               <SearchBar />
             </motion.div>
           </main>
         </div>
-        <div className="p-6">
+        <div className="px-6 pt-2 pb-6">
           <CategoryGrid />
         </div>
       </div>
