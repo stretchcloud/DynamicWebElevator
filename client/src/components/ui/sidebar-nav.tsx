@@ -14,14 +14,7 @@ import {
   Trophy,
   Users,
   Cloud,
-  Menu,
-  Settings,
-  Cpu,
-  LineChart,
-  UserCheck,
-  BookOpen,
-  Bot,
-  Search
+  Menu
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from './button';
@@ -53,63 +46,26 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
   }, [selectedCategory, setSelectedCategory]);
 
   const categories = [
-    // New categories
     {
-      id: 'Data',
-      title: 'Data',
-      icon: <Database className="w-4 h-4" />,
-    },
-    {
-      id: 'Fine-Tuning',
-      title: 'Fine-Tuning',
-      icon: <Settings className="w-4 h-4" />,
-    },
-    {
-      id: 'Inference',
-      title: 'Inference',
-      icon: <Cpu className="w-4 h-4" />,
-    },
-    {
-      id: 'Evaluation',
-      title: 'Evaluation',
-      icon: <LineChart className="w-4 h-4" />,
-    },
-    {
-      id: 'Experience Usage',
-      title: 'Experience Usage',
-      icon: <UserCheck className="w-4 h-4" />,
-    },
-    {
-      id: 'Knowledge BaseRAG',
-      title: 'Knowledge BaseRAG',
-      icon: <BookOpen className="w-4 h-4" />,
-    },
-    {
-      id: 'Agents',
-      title: 'Agents',
-      icon: <Bot className="w-4 h-4" />,
-    },
-    {
-      id: 'Search',
-      title: 'Search',
-      icon: <Search className="w-4 h-4" />,
-    },
-    {
-      id: 'Book',
-      title: 'Book',
+      id: 'Free Resources',
+      title: 'Free Resources',
       icon: <Book className="w-4 h-4" />,
     },
     {
-      id: 'Course',
-      title: 'Course',
+      id: 'Video Tutorials',
+      title: 'Video Tutorials',
+      icon: <Video className="w-4 h-4" />,
+    },
+    {
+      id: 'Academic Courses',
+      title: 'Academic Courses',
       icon: <GraduationCap className="w-4 h-4" />,
     },
     {
-      id: 'Tutorial',
-      title: 'Tutorial',
-      icon: <Video className="w-4 h-4" />,
+      id: 'Research Papers',
+      title: 'Research Papers',
+      icon: <FileText className="w-4 h-4" />,
     },
-    // Existing categories
     {
       id: 'GitHub Repositories',
       title: 'GitHub Repositories',

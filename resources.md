@@ -1,600 +1,410 @@
-
-
-You signed in with another tab or window. Reload to refresh your session.You signed out in another tab or window. Reload to refresh your session.You switched accounts on another tab or window. Reload to refresh your session.Dismiss alert
-
-{{ message }}
-
-[WangRongsheng](/WangRongsheng)/ **[awesome-LLM-resourses](/WangRongsheng/awesome-LLM-resourses)** Public
-
-- [Notifications](/login?return_to=%2FWangRongsheng%2Fawesome-LLM-resourses) You must be signed in to change notification settings
-- [Fork\\
-290](/login?return_to=%2FWangRongsheng%2Fawesome-LLM-resourses)
-- [Star\\
-2.4k](/login?return_to=%2FWangRongsheng%2Fawesome-LLM-resourses)
-
-
-🧑‍🚀 全世界最好的LLM资料总结 \| Summary of the world's best LLM resources.
-
-
-[www.wangrs.site/awesome-llm-resourses/](http://www.wangrs.site/awesome-LLM-resourses/ "http://www.wangrs.site/awesome-LLM-resourses/")
-
-### License
-
-[Apache-2.0 license](/WangRongsheng/awesome-LLM-resourses/blob/main/LICENSE)
-
-[2.4k\\
-stars](/WangRongsheng/awesome-LLM-resourses/stargazers) [290\\
-forks](/WangRongsheng/awesome-LLM-resourses/forks) [Branches](/WangRongsheng/awesome-LLM-resourses/branches) [Tags](/WangRongsheng/awesome-LLM-resourses/tags) [Activity](/WangRongsheng/awesome-LLM-resourses/activity)
-
-[Star](/login?return_to=%2FWangRongsheng%2Fawesome-LLM-resourses)
-
-[Notifications](/login?return_to=%2FWangRongsheng%2Fawesome-LLM-resourses) You must be signed in to change notification settings
-
-# WangRongsheng/awesome-LLM-resourses
-
-main
-
-[Branches](/WangRongsheng/awesome-LLM-resourses/branches) [Tags](/WangRongsheng/awesome-LLM-resourses/tags)
-
-[Go to Branches page](/WangRongsheng/awesome-LLM-resourses/branches)[Go to Tags page](/WangRongsheng/awesome-LLM-resourses/tags)
-
-Go to file
-
-Code
-
-## Folders and files
-
-| Name | Name | Last commit message | Last commit date |
-| --- | --- | --- | --- |
-| ## Latest commit<br>## History<br>[310 Commits](/WangRongsheng/awesome-LLM-resourses/commits/main/) |
-| [assets](/WangRongsheng/awesome-LLM-resourses/tree/main/assets "assets") | [assets](/WangRongsheng/awesome-LLM-resourses/tree/main/assets "assets") |  |  |
-| [docs](/WangRongsheng/awesome-LLM-resourses/tree/main/docs "docs") | [docs](/WangRongsheng/awesome-LLM-resourses/tree/main/docs "docs") |  |  |
-| [CODE\_OF\_CONDUCT.md](/WangRongsheng/awesome-LLM-resourses/blob/main/CODE_OF_CONDUCT.md "CODE_OF_CONDUCT.md") | [CODE\_OF\_CONDUCT.md](/WangRongsheng/awesome-LLM-resourses/blob/main/CODE_OF_CONDUCT.md "CODE_OF_CONDUCT.md") |  |  |
-| [LICENSE](/WangRongsheng/awesome-LLM-resourses/blob/main/LICENSE "LICENSE") | [LICENSE](/WangRongsheng/awesome-LLM-resourses/blob/main/LICENSE "LICENSE") |  |  |
-| [README.md](/WangRongsheng/awesome-LLM-resourses/blob/main/README.md "README.md") | [README.md](/WangRongsheng/awesome-LLM-resourses/blob/main/README.md "README.md") |  |  |
-| [\_config.yml](/WangRongsheng/awesome-LLM-resourses/blob/main/_config.yml "_config.yml") | [\_config.yml](/WangRongsheng/awesome-LLM-resourses/blob/main/_config.yml "_config.yml") |  |  |
-| View all files |
-
-## Repository files navigation
-
-[![](/WangRongsheng/awesome-LLM-resourses/raw/main/assets/logo2.png)](/WangRongsheng/awesome-LLM-resourses/blob/main/assets/logo2.png)
-
-全世界最好的大语言模型资源汇总 持续更新
-
-[![Flag Counter](https://camo.githubusercontent.com/17b67a80eb85e4965e2381b97c6c12e9574a67096618e13df2ec0726d0c64c73/68747470733a2f2f7331312e666c6167636f756e7465722e636f6d2f636f756e74322f5536596e2f62675f4646464646462f7478745f3030303030302f626f726465725f4343434343432f636f6c756d6e735f322f6d6178666c6167735f31302f766965776572735f302f6c6162656c735f312f7061676576696577735f302f666c6167735f302f70657263656e745f302f)](https://info.flagcounter.com/U6Yn)
-
-Check More Information
-
-[![](https://camo.githubusercontent.com/8693bde04030b1670d5097703441005eba34240c32d1df1eb82a5f0d6716518e/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667)](https://github.com/WangRongsheng/awesome-LLM-resourses)[![](https://camo.githubusercontent.com/e9bcd940ce509c6d768576c19f33b3035565ac93f039e50b20984d76b047e849/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f57616e67526f6e677368656e672f617765736f6d652d4c4c4d2d7265736f75727365732e7376673f7374796c653d736f6369616c)](https://github.com/WangRongsheng/awesome-LLM-resourses)[![](https://camo.githubusercontent.com/214d37895bb6f8e02b5d20838a6c63d0a8a8046f549d4fb14d91be8ed2befabe/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f57616e67526f6e677368656e672f617765736f6d652d4c4c4d2d7265736f75727365732e7376673f7374796c653d736f6369616c)](https://github.com/WangRongsheng/awesome-LLM-resourses)[![](https://camo.githubusercontent.com/265c62858cd9994013f4605fcf19f4fac81c92594b904fe3999104994819e178/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f77617463686572732f57616e67526f6e677368656e672f617765736f6d652d4c4c4d2d7265736f75727365732e7376673f7374796c653d736f6369616c)](https://github.com/WangRongsheng/awesome-LLM-resourses)
-
-[\[在线阅读\]](https://www.wangrs.site/awesome-LLM-resourses/)
-
-[![](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)
-
-#### Contents
-
-[Permalink: Contents](#contents)
-
-- [数据 Data](#%E6%95%B0%E6%8D%AE-Data)
-- [微调 Fine-Tuning](#%E5%BE%AE%E8%B0%83-Fine-Tuning)
-- [推理 Inference](#%E6%8E%A8%E7%90%86-Inference)
-- [评估 Evaluation](#%E8%AF%84%E4%BC%B0-Evaluation)
-- [体验 Usage](#%E4%BD%93%E9%AA%8C-Usage)
-- [知识库 RAG](#%E7%9F%A5%E8%AF%86%E5%BA%93-RAG)
-- [智能体 Agents](#%E6%99%BA%E8%83%BD%E4%BD%93-Agents)
-- [搜索 Search](#%E6%90%9C%E7%B4%A2-Search)
-- [书籍 Book](#%E4%B9%A6%E7%B1%8D-Book)
-- [课程 Course](#%E8%AF%BE%E7%A8%8B-Course)
-- [教程 Tutorial](#%E6%95%99%E7%A8%8B-Tutorial)
-- [论文 Paper](#%E8%AE%BA%E6%96%87-Paper)
-- [Tips](#tips)
-
-[![](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)
-
-## 数据 Data
-
-[Permalink: 数据 Data](#数据-data)
-
-Note
-
-此处命名为 `数据`，但这里并没有提供具体数据集，而是提供了处理获取大规模数据的方法
-
-我们始终秉持授人以鱼不如授人以渔
-
-01. [AotoLabel](https://github.com/refuel-ai/autolabel): Label, clean and enrich text datasets with LLMs.
-02. [LabelLLM](https://github.com/opendatalab/LabelLLM): The Open-Source Data Annotation Platform.
-03. [data-juicer](https://github.com/modelscope/data-juicer): A one-stop data processing system to make data higher-quality, juicier, and more digestible for LLMs!
-04. [OmniParser](https://github.com/jf-tech/omniparser): a native Golang ETL streaming parser and transform library for CSV, JSON, XML, EDI, text, etc.
-05. [MinerU](https://github.com/opendatalab/MinerU): MinerU is a one-stop, open-source, high-quality data extraction tool, supports PDF/webpage/e-book extraction.
-06. [PDF-Extract-Kit](https://github.com/opendatalab/PDF-Extract-Kit): A Comprehensive Toolkit for High-Quality PDF Content Extraction.
-07. [Parsera](https://github.com/raznem/parsera): Lightweight library for scraping web-sites with LLMs.
-08. [Sparrow](https://github.com/katanaml/sparrow): Sparrow is an innovative open-source solution for efficient data extraction and processing from various documents and images.
-09. [Docling](https://github.com/DS4SD/docling): Transform PDF to JSON or Markdown with ease and speed.
-10. [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0): OCR Model.
-11. [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator): Rethinking Benchmark and Contamination for Language Models with Rephrased Samples.
-12. [DataTrove](https://github.com/huggingface/datatrove): DataTrove is a library to process, filter and deduplicate text data at a very large scale.
-13. [llm-swarm](https://github.com/huggingface/llm-swarm/tree/main/examples/textbooks): Generate large synthetic datasets like [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia).
-14. [Distilabel](https://github.com/argilla-io/distilabel): Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers.
-15. [Common-Crawl-Pipeline-Creator](https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creator): The Common Crawl Pipeline Creator.
-16. [Tabled](https://github.com/VikParuchuri/tabled): Detect and extract tables to markdown and csv.
-17. [Zerox](https://github.com/getomni-ai/zerox): Zero shot pdf OCR with gpt-4o-mini.
-18. [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO): Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception.
-19. [TensorZero](https://github.com/tensorzero/tensorzero): make LLMs improve through experience.
-20. [Promptwright](https://github.com/StacklokLabs/promptwright): Generate large synthetic data using a local LLM.
-21. [pdf-extract-api](https://github.com/CatchTheTornado/pdf-extract-api): Document (PDF) extraction and parse API using state of the art modern OCRs + Ollama supported models.
-22. [pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX): Convert PDF to HTML without losing text or format.
-23. [Extractous](https://github.com/yobix-ai/extractous): Fast and efficient unstructured data extraction. Written in Rust with bindings for many languages.
-
-**[↥ back to top](#Contents)**
-
-## 微调 Fine-Tuning
-
-[Permalink: 微调 Fine-Tuning](#微调-fine-tuning)
-
-01. [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs.
-02. [unsloth](https://github.com/unslothai/unsloth): 2-5X faster 80% less memory LLM finetuning.
-03. [TRL](https://huggingface.co/docs/trl/index): Transformer Reinforcement Learning.
-04. [Firefly](https://github.com/yangjianxin1/Firefly): Firefly: 大模型训练工具，支持训练数十种大模型
-05. [Xtuner](https://github.com/InternLM/xtuner): An efficient, flexible and full-featured toolkit for fine-tuning large models.
-06. [torchtune](https://github.com/pytorch/torchtune): A Native-PyTorch Library for LLM Fine-tuning.
-07. [Swift](https://github.com/modelscope/swift): Use PEFT or Full-parameter to finetune 200+ LLMs or 15+ MLLMs.
-08. [AutoTrain](https://huggingface.co/autotrain): A new way to automatically train, evaluate and deploy state-of-the-art Machine Learning models.
-09. [OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF): An Easy-to-use, Scalable and High-performance RLHF Framework (Support 70B+ full tuning & LoRA & Mixtral & KTO).
-10. [Ludwig](https://github.com/ludwig-ai/ludwig): Low-code framework for building custom LLMs, neural networks, and other AI models.
-11. [mistral-finetune](https://github.com/mistralai/mistral-finetune): A light-weight codebase that enables memory-efficient and performant finetuning of Mistral's models.
-12. [aikit](https://github.com/sozercan/aikit): Fine-tune, build, and deploy open-source LLMs easily!
-13. [H2O-LLMStudio](https://github.com/h2oai/h2o-llmstudio): H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs.
-14. [LitGPT](https://github.com/Lightning-AI/litgpt): Pretrain, finetune, deploy 20+ LLMs on your own data. Uses state-of-the-art techniques: flash attention, FSDP, 4-bit, LoRA, and more.
-15. [LLMBox](https://github.com/RUCAIBox/LLMBox): A comprehensive library for implementing LLMs, including a unified training pipeline and comprehensive model evaluation.
-16. [PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP): Easy-to-use and powerful NLP and LLM library.
-17. [workbench-llamafactory](https://github.com/NVIDIA/workbench-llamafactory): This is an NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory.
-18. [OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF): An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & Mixtral).
-19. [TinyLLaVA Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory): A Framework of Small-scale Large Multimodal Models.
-20. [LLM-Foundry](https://github.com/mosaicml/llm-foundry): LLM training code for Databricks foundation models.
-21. [lmms-finetune](https://github.com/zjysteven/lmms-finetune): A unified codebase for finetuning (full, lora) large multimodal models, supporting llava-1.5, qwen-vl, llava-interleave, llava-next-video, phi3-v etc.
-22. [Simplifine](https://github.com/simplifine-llm/Simplifine): Simplifine lets you invoke LLM finetuning with just one line of code using any Hugging Face dataset or model.
-23. [Transformer Lab](https://github.com/transformerlab/transformerlab-app): Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer.
-24. [Liger-Kernel](https://github.com/linkedin/Liger-Kernel): Efficient Triton Kernels for LLM Training.
-25. [ChatLearn](https://github.com/alibaba/ChatLearn): A flexible and efficient training framework for large-scale alignment.
-26. [nanotron](https://github.com/huggingface/nanotron): Minimalistic large language model 3D-parallelism training.
-27. [Proxy Tuning](https://github.com/alisawuffles/proxy-tuning): Tuning Language Models by Proxy.
-28. [Effective LLM Alignment](https://github.com/VikhrModels/effective_llm_alignment/): Effective LLM Alignment Toolkit.
-29. [Autotrain-advanced](https://github.com/huggingface/autotrain-advanced)
-30. [Meta Lingua](https://github.com/facebookresearch/lingua): a lean, efficient, and easy-to-hack codebase to research LLMs.
-31. [Vision-LLM Alignemnt](https://github.com/NiuTrans/Vision-LLM-Alignment): This repository contains the code for SFT, RLHF, and DPO, designed for vision-based LLMs, including the LLaVA models and the LLaMA-3.2-vision models.
-32. [finetune-Qwen2-VL](https://github.com/zhangfaen/finetune-Qwen2-VL): Quick Start for Fine-tuning or continue pre-train Qwen2-VL Model.
-
-**[↥ back to top](#Contents)**
-
-## 推理 Inference
-
-[Permalink: 推理 Inference](#推理-inference)
-
-01. [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3, Mistral, Gemma, and other large language models.
-02. [Open WebUI](https://github.com/open-webui/open-webui): User-friendly WebUI for LLMs (Formerly Ollama WebUI).
-03. [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui): A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models.
-04. [Xinference](https://github.com/xorbitsai/inference): A powerful and versatile library designed to serve language, speech recognition, and multimodal models.
-05. [LangChain](https://github.com/langchain-ai/langchain): Build context-aware reasoning applications.
-06. [LlamaIndex](https://github.com/run-llama/llama_index): A data framework for your LLM applications.
-07. [lobe-chat](https://github.com/lobehub/lobe-chat): an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers, Multi-Modals (Vision/TTS) and plugin system.
-08. [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.
-09. [vllm](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs.
-10. [LlamaChat](https://github.com/alexrozanski/LlamaChat): Chat with your favourite LLaMA models in a native macOS app.
-11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data.
-12. [LM Studio](https://lmstudio.ai/): Discover, download, and run local LLMs.
-13. [chat-with-mlx](https://github.com/qnguyen3/chat-with-mlx): Chat with your data natively on Apple Silicon using MLX Framework.
-14. [LLM Pricing](https://llmpricecheck.com/): Quickly Find the Perfect Large Language Models (LLM) API for Your Budget! Use Our Free Tool for Instant Access to the Latest Prices from Top Providers.
-15. [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter): A natural language interface for computers.
-16. [Chat-ollama](https://github.com/sugarforever/chat-ollama): An open source chatbot based on LLMs. It supports a wide range of language models, and knowledge base management.
-17. [chat-ui](https://github.com/huggingface/chat-ui): Open source codebase powering the HuggingChat app.
-18. [MemGPT](https://github.com/cpacker/MemGPT): Create LLM agents with long-term memory and custom tools.
-19. [koboldcpp](https://github.com/LostRuins/koboldcpp): A simple one-file way to run various GGML and GGUF models with KoboldAI's UI.
-20. [LLMFarm](https://github.com/guinmoon/LLMFarm): llama and other large language models on iOS and MacOS offline using GGML library.
-21. [enchanted](https://github.com/AugustDev/enchanted): Enchanted is iOS and macOS app for chatting with private self hosted language models such as Llama2, Mistral or Vicuna using Ollama.
-22. [Flowise](https://github.com/FlowiseAI/Flowise): Drag & drop UI to build your customized LLM flow.
-23. [Jan](https://github.com/janhq/jan): Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM).
-24. [LMDeploy](https://github.com/InternLM/lmdeploy): LMDeploy is a toolkit for compressing, deploying, and serving LLMs.
-25. [RouteLLM](https://github.com/lm-sys/RouteLLM): A framework for serving and evaluating LLM routers - save LLM costs without compromising quality!
-26. [MInference](https://github.com/microsoft/MInference): About
-    To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy.
-27. [Mem0](https://github.com/mem0ai/mem0): The memory layer for Personalized AI.
-28. [SGLang](https://github.com/sgl-project/sglang): SGLang is yet another fast serving framework for large language models and vision language models.
-29. [AirLLM](https://github.com/lyogavin/airllm): AirLLM optimizes inference memory usage, allowing 70B large language models to run inference on a single 4GB GPU card without quantization, distillation and pruning. And you can run 405B Llama3.1 on 8GB vram now.
-30. [LLMHub](https://github.com/jmather/llmhub): LLMHub is a lightweight management platform designed to streamline the operation and interaction with various language models (LLMs).
-31. [YuanChat](https://github.com/IEIT-Yuan/YuanChat)
-32. [LiteLLM](https://github.com/BerriAI/litellm): Call all LLM APIs using the OpenAI format \[Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, Groq etc.\]
-33. [GuideLLM](https://github.com/neuralmagic/guidellm): GuideLLM is a powerful tool for evaluating and optimizing the deployment of large language models (LLMs).
-34. [LLM-Engines](https://github.com/jdf-prog/LLM-Engines): A unified inference engine for large language models (LLMs) including open-source models (VLLM, SGLang, Together) and commercial models (OpenAI, Mistral, Claude).
-35. [OARC](https://github.com/Leoleojames1/ollama_agent_roll_cage): ollama\_agent\_roll\_cage (OARC) is a local python agent fusing ollama llm's with Coqui-TTS speech models, Keras classifiers, Llava vision, Whisper recognition, and more to create a unified chatbot agent for local, custom automation.
-36. [g1](https://github.com/bklieger-groq/g1): Using Llama-3.1 70b on Groq to create o1-like reasoning chains.
-37. [MemoryScope](https://github.com/modelscope/MemoryScope): MemoryScope provides LLM chatbots with powerful and flexible long-term memory capabilities, offering a framework for building such abilities.
-38. [OpenLLM](https://github.com/bentoml/OpenLLM): Run any open-source LLMs, such as Llama 3.1, Gemma, as OpenAI compatible API endpoint in the cloud.
-39. [Infinity](https://github.com/infiniflow/infinity): The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense embedding, sparse embedding, tensor and full-text.
-40. [optillm](https://github.com/codelion/optillm): an OpenAI API compatible optimizing inference proxy which implements several state-of-the-art techniques that can improve the accuracy and performance of LLMs.
-41. [LLaMA Box](https://github.com/gpustack/llama-box): LLM inference server implementation based on llama.cpp.
-
-**[↥ back to top](#Contents)**
-
-## 评估 Evaluation
-
-[Permalink: 评估 Evaluation](#评估-evaluation)
-
-1. [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): A framework for few-shot evaluation of language models.
-2. [opencompass](https://github.com/open-compass/opencompass): OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
-3. [llm-comparator](https://github.com/PAIR-code/llm-comparator): LLM Comparator is an interactive data visualization tool for evaluating and analyzing LLM responses side-by-side, developed.
-4. [EvalScope](https://github.com/modelscope/evalscope)
-5. [Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations): A lightweight toolkit for tracking and evaluating LLM applications.
-6. [MixEval](https://github.com/Psycoy/MixEval/): Deriving Wisdom of the Crowd from LLM Benchmark Mixtures.
-7. [Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook): If you've ever wondered how to make sure an LLM performs well on your specific task, this guide is for you!
-8. [Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark): LLM Benchmark for Throughput via Ollama (Local LLMs).
-9. [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): Open-source evaluation toolkit of large vision-language models (LVLMs), support ~100 VLMs, 40+ benchmarks.
-
-`LLM API 服务平台`：
-
-1. [Groq](https://groq.com/)
-2. [硅基流动](https://cloud.siliconflow.cn/models)
-3. [火山引擎](https://www.volcengine.com/product/ark)
-4. [文心千帆](https://qianfan.cloud.baidu.com/)
-5. [DashScope](https://dashscope.aliyun.com/)
-
-**[↥ back to top](#Contents)**
-
-## 体验 Usage
-
-[Permalink: 体验 Usage](#体验-usage)
-
-1. [LMSYS Chatbot Arena: Benchmarking LLMs in the Wild](https://arena.lmsys.org/)
-2. [CompassArena 司南大模型竞技场](https://modelscope.cn/studios/opencompass/CompassArena/summary)
-3. [琅琊榜](https://langyb.com/)
-4. [Huggingface Spaces](https://huggingface.co/spaces)
-5. [WiseModel Spaces](https://wisemodel.cn/spaces)
-6. [Poe](https://poe.com/)
-7. [林哥的大模型野榜](https://lyihub.com/)
-8. [OpenRouter](https://openrouter.ai/)
-9. [AnyChat](https://huggingface.co/spaces/akhaliq/anychat)
-
-**[↥ back to top](#Contents)**
-
-## 知识库 RAG
-
-[Permalink: 知识库 RAG](#知识库-rag)
-
-01. [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app for any LLM with full RAG and AI Agent capabilites.
-02. [MaxKB](https://github.com/1Panel-dev/MaxKB): 基于 LLM 大语言模型的知识库问答系统。开箱即用，支持快速嵌入到第三方业务系统
-03. [RAGFlow](https://github.com/infiniflow/ragflow): An open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
-04. [Dify](https://github.com/langgenius/dify): An open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
-05. [FastGPT](https://github.com/labring/FastGPT): A knowledge-based platform built on the LLM, offers out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through Flow visualization.
-06. [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): 基于 Langchain 与 ChatGLM 等不同大语言模型的本地知识库问答
-07. [QAnything](https://github.com/netease-youdao/QAnything): Question and Answer based on Anything.
-08. [Quivr](https://github.com/QuivrHQ/quivr): A personal productivity assistant (RAG) ⚡️🤖 Chat with your docs (PDF, CSV, ...) & apps using Langchain, GPT 3.5 / 4 turbo, Private, Anthropic, VertexAI, Ollama, LLMs, Groq that you can share with users ! Local & Private alternative to OpenAI GPTs & ChatGPT powered by retrieval-augmented generation.
-09. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval.
-10. [Verba](https://github.com/weaviate/Verba): Retrieval Augmented Generation (RAG) chatbot powered by Weaviate.
-11. [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG): A Python Toolkit for Efficient RAG Research.
-12. [GraphRAG](https://github.com/microsoft/graphrag): A modular graph-based Retrieval-Augmented Generation (RAG) system.
-13. [LightRAG](https://github.com/SylphAI-Inc/LightRAG): LightRAG helps developers with both building and optimizing Retriever-Agent-Generator pipelines.
-14. [GraphRAG-Ollama-UI](https://github.com/severian42/GraphRAG-Ollama-UI): GraphRAG using Ollama with Gradio UI and Extra Features.
-15. [nano-GraphRAG](https://github.com/gusye1234/nano-graphrag): A simple, easy-to-hack GraphRAG implementation.
-16. [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques): This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.
-17. [ragas](https://github.com/explodinggradients/ragas): Evaluation framework for your Retrieval Augmented Generation (RAG) pipelines.
-18. [kotaemon](https://github.com/Cinnamon/kotaemon): An open-source clean & customizable RAG UI for chatting with your documents. Built with both end users and developers in mind.
-19. [RAGapp](https://github.com/ragapp/ragapp): The easiest way to use Agentic RAG in any enterprise.
-20. [TurboRAG](https://github.com/MooreThreads/TurboRAG): Accelerating Retrieval-Augmented Generation with Precomputed KV Caches for Chunked Text.
-21. [LightRAG](https://github.com/HKUDS/LightRAG): Simple and Fast Retrieval-Augmented Generation.
-22. [TEN](https://github.com/TEN-framework/ten_framework): the Next-Gen AI-Agent Framework, the world's first truly real-time multimodal AI agent framework.
-23. [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): RAG AutoML tool for automatically finding an optimal RAG pipeline for your data.
-24. [KAG](https://github.com/OpenSPG/KAG): KAG is a knowledge-enhanced generation framework based on OpenSPG engine, which is used to build knowledge-enhanced rigorous decision-making and information retrieval knowledge services.
-25. [Fast-GraphRAG](https://github.com/circlemind-ai/fast-graphrag): RAG that intelligently adapts to your use case, data, and queries.
-26. [Tiny-GraphRAG](https://github.com/limafang/tiny-graphrag)
-27. [DB-GPT GraphRAG](https://github.com/eosphoros-ai/DB-GPT/tree/main/dbgpt/storage/knowledge_graph): DB-GPT GraphRAG integrates both triplet-based knowledge graphs and document structure graphs while leveraging community and document retrieval mechanisms to enhance RAG capabilities, achieving comparable performance while consuming only 50% of the tokens required by Microsoft's GraphRAG. Refer to the DB-GPT [Graph RAG User Manual](http://docs.dbgpt.cn/docs/cookbook/rag/graph_rag_app_develop/) for details.
-28. [Chonkie](https://github.com/bhavnicksm/chonkie): The no-nonsense RAG chunking library that's lightweight, lightning-fast, and ready to CHONK your texts.
-
-**[↥ back to top](#Contents)**
-
-## 智能体 Agents
-
-[Permalink: 智能体 Agents](#智能体-agents)
-
-01. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks. [AutoGen AIStudio](https://autogen-studio.com/)
-02. [CrewAI](https://github.com/joaomdmoura/crewAI): Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-03. [Coze](https://www.coze.com/)
-04. [AgentGPT](https://github.com/reworkd/AgentGPT): Assemble, configure, and deploy autonomous AI Agents in your browser.
-05. [XAgent](https://github.com/OpenBMB/XAgent): An Autonomous LLM Agent for Complex Task Solving.
-06. [MobileAgent](https://github.com/X-PLUG/MobileAgent): The Powerful Mobile Device Operation Assistant Family.
-07. [Lagent](https://github.com/InternLM/lagent): A lightweight framework for building LLM-based agents.
-08. [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent): Agent framework and applications built upon Qwen2, featuring Function Calling, Code Interpreter, RAG, and Chrome extension.
-09. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台
-10. [Baidu APPBuilder](https://appbuilder.cloud.baidu.com/)
-11. [agentUniverse](https://github.com/alipay/agentUniverse): agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications. Furthermore, through the community, they can exchange and share practices of patterns across different domains.
-12. [LazyLLM](https://github.com/LazyAGI/LazyLLM): 低代码构建多Agent大模型应用的开发工具
-13. [AgentScope](https://github.com/modelscope/agentscope): Start building LLM-empowered multi-agent applications in an easier way.
-14. [MoA](https://github.com/togethercomputer/MoA): Mixture of Agents (MoA) is a novel approach that leverages the collective strengths of multiple LLMs to enhance performance, achieving state-of-the-art results.
-15. [Agently](https://github.com/Maplemx/Agently): AI Agent Application Development Framework.
-16. [OmAgent](https://github.com/om-ai-lab/OmAgent): A multimodal agent framework for solving complex tasks.
-17. [Tribe](https://github.com/StreetLamb/tribe): No code tool to rapidly build and coordinate multi-agent teams.
-18. [CAMEL](https://github.com/camel-ai/camel): First LLM multi-agent framework and an open-source community dedicated to finding the scaling law of agents.
-19. [PraisonAI](https://github.com/MervinPraison/PraisonAI/): PraisonAI application combines AutoGen and CrewAI or similar frameworks into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human-agent collaboration.
-20. [IoA](https://github.com/openbmb/ioa): An open-source framework for collaborative AI agents, enabling diverse, distributed agents to team up and tackle complex tasks through internet-like connectivity.
-21. [llama-agentic-system](https://github.com/meta-llama/llama-agentic-system): Agentic components of the Llama Stack APIs.
-22. [Agent Zero](https://github.com/frdel/agent-zero): Agent Zero is not a predefined agentic framework. It is designed to be dynamic, organically growing, and learning as you use it.
-23. [Agents](https://github.com/aiwaves-cn/agents): An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents.
-24. [AgentScope](https://github.com/modelscope/agentscope): Start building LLM-empowered multi-agent applications in an easier way.
-25. [FastAgency](https://github.com/airtai/fastagency): The fastest way to bring multi-agent workflows to production.
-26. [Swarm](https://github.com/openai/swarm): Framework for building, orchestrating and deploying multi-agent systems. Managed by OpenAI Solutions team. Experimental framework.
-27. [Agent-S](https://github.com/simular-ai/Agent-S): an open agentic framework that uses computers like a human.
-
-**[↥ back to top](#Contents)**
-
-## 搜索 Search
-
-[Permalink: 搜索 Search](#搜索-search)
-
-1. [OpenSearch GPT](https://github.com/supermemoryai/opensearch-ai): SearchGPT / Perplexity clone, but personalised for you.
-2. [MindSearch](https://github.com/InternLM/MindSearch): An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT).
-3. [nanoPerplexityAI](https://github.com/Yusuke710/nanoPerplexityAI): The simplest open-source implementation of perplexity.ai.
-4. [curiosity](https://github.com/jank/curiosity): Try to build a Perplexity-like user experience.
-
-**[↥ back to top](#Contents)**
-
-## 书籍 Book
-
-[Permalink: 书籍 Book](#书籍-book)
-
-01. [《大规模语言模型：从理论到实践》](https://intro-llm.github.io/)
-02. [《大语言模型》](https://llmbook-zh.github.io/)
-03. [《动手学大模型Dive into LLMs》](https://github.com/Lordog/dive-into-llms)
-04. [《动手做AI Agent》](https://book.douban.com/subject/36884058/)
-05. [《Build a Large Language Model (From Scratch)》](https://github.com/rasbt/LLMs-from-scratch)
-06. [《多模态大模型》](https://github.com/HCPLab-SYSU/Book-of-MLM)
-07. [《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io/)
-08. [《Understanding Deep Learning》](https://udlbook.github.io/udlbook/)
-09. [《Illustrated book to learn about Transformers & LLMs》](https://www.reddit.com/r/MachineLearning/comments/1ew1hws/p_illustrated_book_to_learn_about_transformers/)
-10. [《Building LLMs for Production: Enhancing LLM Abilities and Reliability with Prompting, Fine-Tuning, and RAG》](https://www.amazon.com/Building-LLMs-Production-Reliability-Fine-Tuning/dp/B0D4FFPFW8?crid=7OAXELUKGJE4&dib=eyJ2IjoiMSJ9.Qr3e3VSH8LSo_j1M7sV7GfS01q_W1LDYd2uGlvGJ8CW-t4DTlng6bSeOlZBryhp6HJN5K1HqWMVVgabU2wz2i9yLpy_AuaZN-raAEbenKx2NHtzZA3A4k-N7GpnldF1baCarA_V1CRF-aCdc9_3WSX7SaEzmpyDv22TTyltcKT74HAb2KiQqBGLhQS3cEAnzChcqGa1Xp-XhbMnplVwT7xZLApE3tGLhDOgi5GmSi9w.8SY_4NBEkm68YF4GwhDnz0r81ZB1d8jr-gK9IMJE5AE&dib_tag=se&keywords=building+llms+for+production&qid=1716376414&sprefix=building+llms+for+production,aps,101&sr=8-1&linkCode=sl1&tag=whatsai06-20&linkId=ee102fda07a0eb51710fcdd8b8d20c28&language=en_US&ref_=as_li_ss_tl)
-11. [《大型语言模型实战指南：应用实践与场景落地》](https://github.com/liucongg/LLMsBook)
-12. [《Hands-On Large Language Models》](https://github.com/handsOnLLM/Hands-On-Large-Language-Models)
-13. [《自然语言处理：大模型理论与实践》](https://nlp-book.swufenlp.group/)
-14. [《动手学强化学习》](https://hrl.boyuai.com/)
-15. [《面向开发者的LLM入门教程》](https://datawhalechina.github.io/llm-cookbook/#/)
-16. [《大模型基础》](https://github.com/ZJU-LLMs/Foundations-of-LLMs)
-
-**[↥ back to top](#Contents)**
-
-## 课程 Course
-
-[Permalink: 课程 Course](#课程-course)
-
-> [LLM Resources Hub](https://llmresourceshub.vercel.app/)
-
-01. [斯坦福 CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
-02. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)
-03. [吴恩达: LLM series of courses](https://learn.deeplearning.ai/)
-04. [ACL 2023 Tutorial: Retrieval-based Language Models and Applications](https://acl2023-retrieval-lm.github.io/)
-05. [llm-course: Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.](https://github.com/mlabonne/llm-course)
-06. [微软: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
-07. [微软: State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A)
-08. [HuggingFace NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
-09. [清华 NLP 刘知远团队大模型公开课](https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=c739db1ebdd361d47af5a0b8497417db)
-10. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)
-11. [斯坦福 CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)
-12. [普林斯顿 COS 597G (Fall 2022): Understanding Large Language Models](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
-13. [约翰霍普金斯 CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2023/index.html)
-14. [李宏毅 GenAI课程](https://www.youtube.com/watch?v=yiY4nPOzJEg&list=PLJV_el3uVTsOePyfmkfivYZ7Rqr2nMk3W)
-15. [openai-cookbook](https://github.com/openai/openai-cookbook): Examples and guides for using the OpenAI API.
-16. [Hands on llms](https://github.com/iusztinpaul/hands-on-llms): Learn about LLM, LLMOps, and vector DBS for free by designing, training, and deploying a real-time financial advisor LLM system.
-17. [滑铁卢大学 CS 886: Recent Advances on Foundation Models](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)
-18. [Mistral: Getting Started with Mistral](https://www.deeplearning.ai/short-courses/getting-started-with-mistral/)
-19. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)
-20. [Coursera: Chatgpt 应用提示工程](https://www.coursera.org/learn/prompt-engineering)
-21. [LangGPT](https://github.com/langgptai/LangGPT): Empowering everyone to become a prompt expert!
-22. [mistralai-cookbook](https://github.com/mistralai/cookbook)
-23. [Introduction to Generative AI 2024 Spring](https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php)
-24. [build nanoGPT](https://github.com/karpathy/build-nanogpt): Video+code lecture on building nanoGPT from scratch.
-25. [LLM101n](https://github.com/karpathy/LLM101n): Let's build a Storyteller.
-26. [Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/)
-27. [LLMs From Scratch (Datawhale Version)](https://github.com/datawhalechina/llms-from-scratch-cn)
-28. [OpenRAG](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)
-29. [通往AGI之路](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)
-30. [Andrej Karpathy - Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
-31. [Interactive visualization of Transformer](https://poloclub.github.io/transformer-explainer/)
-32. [andysingal/llm-course](https://github.com/andysingal/llm-course)
-33. [LM-class](https://lm-class.org/lectures)
-34. [Google Advanced: Generative AI for Developers Learning Path](https://www.cloudskillsboost.google/paths/183)
-35. [Anthropics：Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses/tree/master/prompt_engineering_interactive_tutorial/Anthropic%201P)
-36. [LLMsBook](https://github.com/liucongg/LLMsBook)
-37. [Large Language Model Agents](https://llmagents-learning.org/f24)
-38. [Cohere LLM University](https://cohere.com/llmu)
-39. [LLMs and Transformers](https://www.ambujtewari.com/LLM-fall2024/)
-40. [Smol Vision](https://github.com/merveenoyan/smol-vision): Recipes for shrinking, optimizing, customizing cutting edge vision models.
-41. [Multimodal RAG: Chat with Videos](https://www.deeplearning.ai/short-courses/multimodal-rag-chat-with-videos/)
-42. [LLMs Interview Note](https://github.com/wdndev/llm_interview_note)
-43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG course.
-44. [Weights & Biases AI Academy](https://www.wandb.courses/pages/w-b-courses): Finetuning, building with LLMs, Structured outputs and more LLM courses.
-45. [Prompt Engineering & AI tutorials & Resources](https://promptengineering.org/)
-46. [Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer](https://www.youtube.com/watch?v=sVcwVQRHIc8)
-47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)
-
-**[↥ back to top](#Contents)**
-
-## 教程 Tutorial
-
-[Permalink: 教程 Tutorial](#教程-tutorial)
-
-01. [动手学大模型应用开发](https://datawhalechina.github.io/llm-universe/#/)
-02. [AI开发者频道](https://techdiylife.github.io/blog/blog_list.html)
-03. [B站：五里墩茶社](https://space.bilibili.com/615957867/?spm_id_from=333.999.0.0)
-04. [B站：木羽Cheney](https://space.bilibili.com/3537113897241540/?spm_id_from=333.999.0.0)
-05. [YTB：AI Anytime](https://www.youtube.com/channel/UC-zVytOQB62OwMhKRi0TDvg)
-06. [B站：漆妮妮](https://space.bilibili.com/1262370256/?spm_id_from=333.999.0.0)
-07. [Prompt Engineering Guide](https://www.promptingguide.ai/)
-08. [YTB: AI超元域](https://www.youtube.com/@AIsuperdomain)
-09. [B站：TechBeat人工智能社区](https://space.bilibili.com/209732435)
-10. [B站：黄益贺](https://space.bilibili.com/322961825)
-11. [B站：深度学习自然语言处理](https://space.bilibili.com/507524288)
-12. [LLM Visualization](https://bbycroft.net/llm)
-13. [知乎: 原石人类](https://www.zhihu.com/people/zhang-shi-tou-88-98/posts)
-14. [B站：小黑黑讲AI](https://space.bilibili.com/1963375439/?spm_id_from=333.999.0.0)
-15. [B站：面壁的车辆工程师](https://space.bilibili.com/669720247/?spm_id_from=333.999.0.0)
-16. [B站：AI老兵文哲](https://space.bilibili.com/472543316/?spm_id_from=333.999.0.0)
-17. [Large Language Models (LLMs) with Colab notebooks](https://mlabonne.github.io/blog/)
-18. [YTB：IBM Technology](https://www.youtube.com/@IBMTechnology)
-19. [YTB: Unify Reading Paper Group](https://www.youtube.com/playlist?list=PLwNuX3xB_tv91QvDXlW2TjrLGHW51uMul)
-20. [Chip Huyen](https://huyenchip.com/blog/)
-21. [How Much VRAM](https://github.com/AlexBodner/How_Much_VRAM)
-22. [Blog: 科学空间（苏剑林）](https://kexue.fm/)
-23. [YTB: Hyung Won Chung](https://www.youtube.com/watch?v=dbo3kNKPaUA)
-24. [Blog: Tejaswi kashyap](https://medium.com/@tejaswi_kashyap)
-25. [Blog: 小昇的博客](https://xiaosheng.blog/)
-26. [知乎: ybq](https://www.zhihu.com/people/ybq-29-32/posts)
-27. [W&B articles](https://wandb.ai/fully-connected)
-28. [Huggingface Blog](https://huggingface.co/blog/zh)
-29. [Blog: GbyAI](https://gby.ai/)
-30. [Blog: mlabonne](https://mlabonne.github.io/blog/)
-31. [LLM-Action](https://github.com/liguodongiot/llm-action)
-32. [Blog: Lil’Log (OponAI)](https://lilianweng.github.io/)
-
-**[↥ back to top](#Contents)**
-
-## 论文 Paper
-
-[Permalink: 论文 Paper](#论文-paper)
-
-Note
-
-🤝 [Huggingface Daily Papers](https://huggingface.co/papers)、 [Cool Papers](https://papers.cool/)、 [ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)
-
-01. [Hermes-3-Technical-Report](https://nousresearch.com/wp-content/uploads/2024/08/Hermes-3-Technical-Report.pdf)
-02. [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783)
-03. [Qwen Technical Report](https://arxiv.org/abs/2309.16609)
-04. [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671)
-05. [Qwen2-vl Technical Report](https://arxiv.org/abs/2409.12191)
-06. [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954)
-07. [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434)
-08. [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305)
-09. [DataComp-LM: In search of the next generation of training sets for language models](https://arxiv.org/abs/2406.11794)
-10. [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838)
-11. [MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series](https://arxiv.org/abs/2405.19327)
-12. [Chinese Tiny LLM: Pretraining a Chinese-Centric Large Language Model](https://arxiv.org/abs/2404.04167)
-13. [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/abs/2404.14219)
-14. [Jamba-1.5: Hybrid Transformer-Mamba Models at Scale](https://arxiv.org/abs/2408.12570v1)
-15. [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2403.19887)
-16. [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644)
-17. [Unleashing the Power of Data Tsunami: A Comprehensive Survey on Data Assessment and Selection for Instruction Tuning of Language Models](https://arxiv.org/abs/2408.02085) `data`
-18. [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060)
-19. [Model Merging Paper](https://huggingface.co/collections/osanseviero/model-merging-65097893623330a3a51ead66)
-20. [Baichuan-Omni Technical Report](https://arxiv.org/abs/2410.08565)
-21. [1.5-Pints Technical Report: Pretraining in Days, Not Months – Your Language Model Thrives on Quality Data](https://arxiv.org/abs/2408.03506)
-22. [Baichuan Alignment Technical Report](https://arxiv.org/abs/2410.14940v1)
-23. [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent](https://arxiv.org/abs/2411.02265)
-
-**[↥ back to top](#Contents)**
-
-## Tips
-
-[Permalink: Tips](#tips)
-
-01. [What We Learned from a Year of Building with LLMs (Part I)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
-02. [What We Learned from a Year of Building with LLMs (Part II)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/)
-03. [What We Learned from a Year of Building with LLMs (Part III): Strategy](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/)
-04. [轻松入门大语言模型（LLM）](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
-05. [LLMs for Text Classification: A Guide to Supervised Learning](https://www.striveworks.com/blog/llms-for-text-classification-a-guide-to-supervised-learning)
-06. [Unsupervised Text Classification: Categorize Natural Language With LLMs](https://www.striveworks.com/blog/unsupervised-text-classification-how-to-use-llms-to-categorize-natural-language-data)
-07. [Text Classification With LLMs: A Roundup of the Best Methods](https://www.striveworks.com/blog/text-classification-with-llms-a-roundup-of-the-best-methods)
-08. [LLM Pricing](https://docs.google.com/spreadsheets/d/18GHPEBJzDbICmMStPVkNWA_hQHiWmLcqUdEJA1b4MJM/edit?gid=0#gid=0)
-09. [Uncensor any LLM with abliteration](https://huggingface.co/blog/mlabonne/abliteration)
-10. [Tiny LLM Universe](https://github.com/datawhalechina/tiny-universe)
-11. [Zero-Chatgpt](https://github.com/AI-Study-Han/Zero-Chatgpt)
-12. [Zero-Qwen-VL](https://github.com/AI-Study-Han/Zero-Qwen-VL)
-13. [finetune-Qwen2-VL](https://github.com/zhangfaen/finetune-Qwen2-VL)
-14. [MPP-LLaVA](https://github.com/Coobiw/MPP-LLaVA)
-15. [build\_MiniLLM\_from\_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
-16. [Tiny LLM zh](https://github.com/wdndev/tiny-llm-zh)
-17. [MiniMind](https://github.com/jingyaogong/minimind): 3小时完全从0训练一个仅有26M的小参数GPT，最低仅需2G显卡即可推理训练.
-18. [LLM-Travel](https://github.com/Glanvery/LLM-Travel): 致力于深入理解、探讨以及实现与大模型相关的各种技术、原理和应用
-19. [Knowledge distillation: Teaching LLM's with synthetic data](https://wandb.ai/byyoung3/ML_NEWS3/reports/Knowledge-distillation-Teaching-LLM-s-with-synthetic-data--Vmlldzo5MTMyMzA2)
-20. [Part 1: Methods for adapting large language models](https://ai.meta.com/blog/adapting-large-language-models-llms/)
-21. [Part 2: To fine-tune or not to fine-tune](https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/)
-22. [Part 3: How to fine-tune: Focus on effective datasets](https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curation/)
-23. [Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/?nocache=1)
-24. [LLMs应用构建一年之心得](https://iangyan.github.io/2024/09/08/building-with-llms-part-1/)
-25. [LLM训练-pretrain](https://zhuanlan.zhihu.com/p/718354385)
-26. [pytorch-llama](https://github.com/hkproj/pytorch-llama): LLaMA 2 implemented from scratch in PyTorch.
-27. [Preference Optimization for Vision Language Models with TRL](https://huggingface.co/blog/dpo_vlm) 【 [support model](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModelForVision2Seq)】
-28. [Fine-tuning visual language models using SFTTrainer](https://huggingface.co/blog/vlms) 【 [docs](https://huggingface.co/docs/trl/sft_trainer#extending-sfttrainer-for-vision-language-models)】
-29. [A Visual Guide to Mixture of Experts (MoE)](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts)
-30. [Role-Playing in Large Language Models like ChatGPT](https://promptengineering.org/role-playing-in-large-language-models-like-chatgpt/)
-31. [Distributed Training Guide](https://github.com/LambdaLabsML/distributed-training-guide): Best practices & guides on how to write distributed pytorch training code.
-32. [Chat Templates](https://hf-mirror.com/blog/chat-templates)
-33. [Top 20+ RAG Interview Questions](https://www.analyticsvidhya.com/blog/2024/04/rag-interview-questions/)
-
-**[↥ back to top](#Contents)**
-
-[![](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)
-
-如果你觉得本项目对你有帮助，欢迎引用：
-
-```
-@misc{wang2024llm,
-      title={awesome-LLM-resourses},
-      author={Rongsheng Wang},
-      year={2024},
-      publisher = {GitHub},
-      journal = {GitHub repository},
-      howpublished = {\url{https://github.com/WangRongsheng/awesome-LLM-resourses}},
-}
-```
-
-[![Forkers repo roster for @WangRongsheng/awesome-LLM-resourses](https://camo.githubusercontent.com/845fe8c7b4d3f8fbf29b870824c207985b66be7dc0f64caf0edbbc826597bcff/68747470733a2f2f7265706f726f737465722e636f6d2f666f726b732f57616e67526f6e677368656e672f617765736f6d652d4c4c4d2d7265736f7572736573)](https://github.com/WangRongsheng/awesome-LLM-resourses/network/members)
-
-[![Stargazers repo roster for @WangRongsheng/awesome-LLM-resourses](https://camo.githubusercontent.com/fef1ae2a477ac8250569c4f5dcd60e1f5feb925e51b774a8450925ceb10f97d3/68747470733a2f2f7265706f726f737465722e636f6d2f73746172732f57616e67526f6e677368656e672f617765736f6d652d4c4c4d2d7265736f7572736573)](https://github.com/WangRongsheng/awesome-LLM-resourses/stargazers)
-
-[![Stargazers over time](https://camo.githubusercontent.com/b7ad25bdc61e9beab0756cf490492ece4c64e418f3089db724acab868097e21a/68747470733a2f2f7374617263686172742e63632f57616e67526f6e677368656e672f617765736f6d652d4c4c4d2d7265736f75727365732e737667)](https://starchart.cc/WangRongsheng/awesome-LLM-resourses)
-
-## About
-
-🧑‍🚀 全世界最好的LLM资料总结 \| Summary of the world's best LLM resources.
-
-
-[www.wangrs.site/awesome-LLM-resourses/](http://www.wangrs.site/awesome-LLM-resourses/ "http://www.wangrs.site/awesome-LLM-resourses/")
-
-### Topics
-
-[course](/topics/course "Topic: course") [book](/topics/book "Topic: book") [openai](/topics/openai "Topic: openai") [awesome-list](/topics/awesome-list "Topic: awesome-list") [webui](/topics/webui "Topic: webui") [llama](/topics/llama "Topic: llama") [mistral](/topics/mistral "Topic: mistral") [rag](/topics/rag "Topic: rag") [large-language-models](/topics/large-language-models "Topic: large-language-models") [llm](/topics/llm "Topic: llm") [retrieval-augmented-generation](/topics/retrieval-augmented-generation "Topic: retrieval-augmented-generation") [qwen](/topics/qwen "Topic: qwen")
-
-### Resources
-
-[Readme](#readme-ov-file)
-
-### License
-
-[Apache-2.0 license](#Apache-2.0-1-ov-file)
-
-### Code of conduct
-
-[Code of conduct](#coc-ov-file)
-
-[Activity](/WangRongsheng/awesome-LLM-resourses/activity)
-
-### Stars
-
-[**2.4k**\\
-stars](/WangRongsheng/awesome-LLM-resourses/stargazers)
-
-### Watchers
-
-[**41**\\
-watching](/WangRongsheng/awesome-LLM-resourses/watchers)
-
-### Forks
-
-[**290**\\
-forks](/WangRongsheng/awesome-LLM-resourses/forks)
-
-[Report repository](/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FWangRongsheng%2Fawesome-LLM-resourses&report=WangRongsheng+%28user%29)
-
-## [Contributors\  4](/WangRongsheng/awesome-LLM-resourses/graphs/contributors)
-
-- [![@WangRongsheng](https://avatars.githubusercontent.com/u/55651568?s=64&v=4)](https://github.com/WangRongsheng)[**WangRongsheng**](https://github.com/WangRongsheng)
-- [![@fanzhidongyzby](https://avatars.githubusercontent.com/u/2311313?s=64&v=4)](https://github.com/fanzhidongyzby)[**fanzhidongyzby** Florian](https://github.com/fanzhidongyzby)
-- [![@agata-mlynarczyk](https://avatars.githubusercontent.com/u/113036556?s=64&v=4)](https://github.com/agata-mlynarczyk)[**agata-mlynarczyk**](https://github.com/agata-mlynarczyk)
-- [![@Wendong-Fan](https://avatars.githubusercontent.com/u/133094783?s=64&v=4)](https://github.com/Wendong-Fan)[**Wendong-Fan**](https://github.com/Wendong-Fan)
-
-You can’t perform that action at this time.
+# Welcome to LLM Resources Hub
+
+Your one-stop destination for all the resources you need to excel in your LLM program.
+
+Find Your Learning PathComing Soon
+
+### Free Resources
+
+Essential learning materials and tutorials to get started with LLMs
+
+- 1![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1)
+- 2![](https://www.google.com/s2/favicons?domain=course.fast.ai&sz=32) [Fast.ai Practical Deep Learning](https://course.fast.ai/)
+- 3![](https://www.google.com/s2/favicons?domain=developers.google.com&sz=32) [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+- 4![](https://www.google.com/s2/favicons?domain=www.tensorflow.org&sz=32) [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
+- 5![](https://www.google.com/s2/favicons?domain=pytorch.org&sz=32) [PyTorch Tutorials](https://pytorch.org/tutorials/)
+- 6![](https://www.google.com/s2/favicons?domain=www.coursera.org&sz=32) [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+- 7![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [ML YouTube Courses](https://github.com/dair-ai/ML-YouTube-Courses)
+- 8![](https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=32) [Papers with Code](https://paperswithcode.com/)
+- 9![](https://www.google.com/s2/favicons?domain=www.kaggle.com&sz=32) [Kaggle Learn](https://www.kaggle.com/learn)
+- 10![](https://www.google.com/s2/favicons?domain=platform.openai.com&sz=32) [OpenAI Tutorials](https://platform.openai.com/docs/tutorials)
+- 11![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [ML From Scratch](https://github.com/eriklindernoren/ML-From-Scratch)
+- 12![](https://www.google.com/s2/favicons?domain=www.deeplearningbook.org&sz=32) [Deep Learning Book](https://www.deeplearningbook.org/)
+- 13![](https://www.google.com/s2/favicons?domain=deepmind.com&sz=32) [DeepMind Learning Resources](https://deepmind.com/learning-resources)
+- 14![](https://www.google.com/s2/favicons?domain=www.davidsilver.uk&sz=32) [UCL COMP M050: Reinforcement Learning](https://www.davidsilver.uk/teaching/)
+- 15![](https://www.google.com/s2/favicons?domain=atcold.github.io&sz=32) [NYU Deep Learning](https://atcold.github.io/NYU-DLSP21/)
+- 16![](https://www.google.com/s2/favicons?domain=www.crcv.ucf.edu&sz=32) [UCF Computer Vision](https://www.crcv.ucf.edu/courses/)
+- 17![](https://www.google.com/s2/favicons?domain=cs.uwaterloo.ca&sz=32) [UWaterloo CS480/680: Intro to ML](https://cs.uwaterloo.ca/~ppoupart/teaching/cs480-spring19/)
+- 18![](https://www.google.com/s2/favicons?domain=people.cs.umass.edu&sz=32) [UMass CS685: Advanced NLP](https://people.cs.umass.edu/~miyyer/cs685/)
+- 19![](https://www.google.com/s2/favicons?domain=www.africamasters.uni-tuebingen.de&sz=32) [AMMI: Geometric Deep Learning](https://www.africamasters.uni-tuebingen.de/)
+- 20![](https://www.google.com/s2/favicons?domain=www.cs.cornell.edu&sz=32) [Cornell CS 5787: Applied ML](https://www.cs.cornell.edu/courses/cs5787/)
+- 21![](https://www.google.com/s2/favicons?domain=fullstackdeeplearning.com&sz=32) [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
+- 22![](https://www.google.com/s2/favicons?domain=karpathy.ai&sz=32) [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- 23![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [What is ChatGPT Doing](https://www.youtube.com/watch?v=flXrLGPY3SU)
+- 24![](https://www.google.com/s2/favicons?domain=docs.cohere.com&sz=32) [Cohere LLM University](https://docs.cohere.com/docs/llmu)
+
+View All →
+
+### Video Tutorials
+
+High-quality video content for visual learners, ordered from basics to advanced topics
+
+- 1![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- 2![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [StatQuest ML Basics](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
+- 3![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Andrej Karpathy: Neural Networks Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+- 4![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [What are Large Language Models?](https://www.youtube.com/watch?v=5sLYAQS9sWQ)
+- 5![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [How GPT Models Work](https://www.youtube.com/watch?v=VMj-3S1tku0)
+- 6![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Attention Is All You Need - Paper Explained](https://www.youtube.com/watch?v=iDulhoQ2pro)
+- 7![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Illustrated Guide to Transformers](https://www.youtube.com/watch?v=4Bdc55j80l8)
+- 8![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Building GPT from Scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- 9![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Fine-tuning LLMs with PEFT](https://www.youtube.com/watch?v=Us5ZFp16PaU)
+- 10![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Yannic Kilcher LLM Paper Reviews](https://www.youtube.com/playlist?list=PL1v8zpldgH3pR7LPX-RQzeUomqMc_Xw4-)
+- 11![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Understanding RLHF](https://www.youtube.com/watch?v=2MBJOuVq380)
+- 12![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Mixture of Experts Explained](https://www.youtube.com/watch?v=UNiK3RiVoHo)
+- 13![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [LangChain Crash Course](https://www.youtube.com/watch?v=LbT1yp6quS8)
+- 14![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Building RAG Applications](https://www.youtube.com/watch?v=wBhY-7B2jdY)
+- 15![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A)
+- 16![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Scaling Laws Explained](https://www.youtube.com/watch?v=h1NqZvNFbE0)
+- 17![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Constitutional AI](https://www.youtube.com/watch?v=dC7_sZ2MQPE)
+- 18![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Sparse Attention Mechanisms](https://www.youtube.com/watch?v=gZIP-_2XYMM)
+- 19![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Model Merging Techniques](https://www.youtube.com/watch?v=K9QVXE5M9)
+- 20![](https://www.google.com/s2/favicons?domain=www.youtube.com&sz=32) [Future of LLMs](https://www.youtube.com/watch?v=AhyznRSDPB4)
+
+View All →
+
+### Academic Courses
+
+University courses from top institutions covering ML, AI, and NLP
+
+- 1![](https://www.google.com/s2/favicons?domain=stanford-cs324.github.io&sz=32) [CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/lectures/introduction/)
+- 2![](https://www.google.com/s2/favicons?domain=stanford-cs221.github.io&sz=32) [CS221: Artificial Intelligence](https://stanford-cs221.github.io/)
+- 3![](https://www.google.com/s2/favicons?domain=cs229.stanford.edu&sz=32) [CS229: Machine Learning](https://cs229.stanford.edu/)
+- 4![](https://www.google.com/s2/favicons?domain=cs230.stanford.edu&sz=32) [CS230: Deep Learning](https://cs230.stanford.edu/)
+- 5![](https://www.google.com/s2/favicons?domain=cs231n.stanford.edu&sz=32) [CS231n: CNN for Visual Recognition](http://cs231n.stanford.edu/)
+- 6![](https://www.google.com/s2/favicons?domain=web.stanford.edu&sz=32) [CS224n: NLP with Deep Learning](http://web.stanford.edu/class/cs224n/)
+- 7![](https://www.google.com/s2/favicons?domain=web.stanford.edu&sz=32) [CS224w: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
+- 8![](https://www.google.com/s2/favicons?domain=web.stanford.edu&sz=32) [CS224u: Natural Language Understanding](https://web.stanford.edu/class/cs224u/)
+- 9![](https://www.google.com/s2/favicons?domain=web.stanford.edu&sz=32) [CS234: Reinforcement Learning](https://web.stanford.edu/class/cs234/)
+- 10![](https://www.google.com/s2/favicons?domain=cs330.stanford.edu&sz=32) [CS330: Deep Multi-task Learning](https://cs330.stanford.edu/)
+- 11![](https://www.google.com/s2/favicons?domain=web.stanford.edu&sz=32) [CS25: Transformers United](https://web.stanford.edu/class/cs25/)
+- 12![](https://www.google.com/s2/favicons?domain=stanford-cs-325b.github.io&sz=32) [Stanford ML Explainability](https://stanford-cs-325b.github.io/)
+- 13![](https://www.google.com/s2/favicons?domain=web.stanford.edu&sz=32) [Stanford NLP](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1214/)
+- 14![](https://www.google.com/s2/favicons?domain=phontron.com&sz=32) [CMU CS 11-711: Advanced NLP](http://phontron.com/class/anlp2024/)
+- 15![](https://www.google.com/s2/favicons?domain=phontron.com&sz=32) [CMU CS 11-747: Neural Networks for NLP](http://phontron.com/class/nn4nlp2024/)
+- 16![](https://www.google.com/s2/favicons?domain=phontron.com&sz=32) [CMU CS 11-737: Multilingual NLP](http://phontron.com/class/multilingual2024/)
+- 17![](https://www.google.com/s2/favicons?domain=deeplearning.cs.cmu.edu&sz=32) [CMU CS 11-785: Deep Learning](https://deeplearning.cs.cmu.edu/)
+- 18![](https://www.google.com/s2/favicons?domain=cmu-multicomp-lab.github.io&sz=32) [CMU CS 11-777: Multimodal ML](https://cmu-multicomp-lab.github.io/mmml-course/fall2023/)
+- 19![](https://www.google.com/s2/favicons?domain=www.cs.cmu.edu&sz=32) [CMU CS 10-708: Probabilistic Graphical Models](https://www.cs.cmu.edu/~epxing/Class/10708-20/)
+- 20![](https://www.google.com/s2/favicons?domain=phontron.com&sz=32) [CMU LTI Low Resource NLP](http://phontron.com/class/lti-colloquium2020/)
+- 21![](https://www.google.com/s2/favicons?domain=ocw.mit.edu&sz=32) [MIT OpenCourseWare](https://ocw.mit.edu/search/?t=Computer%20Science)
+- 22![](https://www.google.com/s2/favicons?domain=ocw.mit.edu&sz=32) [MIT 6.034: Artificial Intelligence](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/)
+- 23![](https://www.google.com/s2/favicons?domain=deeplearning.mit.edu&sz=32) [MIT 6.S094: Deep Learning](https://deeplearning.mit.edu/)
+- 24![](https://www.google.com/s2/favicons?domain=introtodeeplearning.com&sz=32) [MIT 6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/)
+- 25![](https://www.google.com/s2/favicons?domain=ali-design.mit.edu&sz=32) [MIT 6.S192: Deep Learning for Art](http://ali-design.mit.edu/classes/6.S192/)
+- 26![](https://www.google.com/s2/favicons?domain=tinyml.mit.edu&sz=32) [MIT 6.5940: TinyML](https://tinyml.mit.edu/)
+
+View All →
+
+### Research Papers
+
+Latest research papers and technical reports in LLM field
+
+- 1![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- 2![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [BERT](https://arxiv.org/abs/1810.04805)
+- 3![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [GPT-3](https://arxiv.org/abs/2005.14165)
+- 4![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [PaLM](https://arxiv.org/abs/2204.02311)
+- 5![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [InstructGPT](https://arxiv.org/abs/2203.02155)
+- 6![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Constitutional AI](https://arxiv.org/abs/2212.08073)
+- 7![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [LLaMA](https://arxiv.org/abs/2302.13971)
+- 8![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [GPT-4](https://arxiv.org/abs/2303.08774)
+- 9![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [PaLM 2](https://arxiv.org/abs/2305.10403)
+- 10![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [RWKV](https://arxiv.org/abs/2305.13048)
+- 11![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Llama 2](https://arxiv.org/abs/2307.09288)
+- 12![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Code Llama](https://arxiv.org/abs/2308.12950)
+- 13![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Mistral 7B](https://arxiv.org/abs/2310.06825)
+- 14![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Phi-2](https://arxiv.org/abs/2311.10617)
+- 15![](https://www.google.com/s2/favicons?domain=storage.googleapis.com&sz=32) [Gemini](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf)
+- 16![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Mixtral 8x7B](https://arxiv.org/abs/2401.04088)
+- 17![](https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=32) [Claude 3](https://www.anthropic.com/news/claude-3-family)
+- 18![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Stable LM 3B](https://arxiv.org/abs/2403.07608)
+- 19![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [arXiv LLM Papers](https://arxiv.org/list/cs.CL/recent)
+- 20![](https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=32) [Papers with Code LLM](https://paperswithcode.com/methods/category/language-models)
+- 21![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [The First Law of Complexodynamics](https://arxiv.org/abs/2312.09818)
+- 22![](https://www.google.com/s2/favicons?domain=karpathy.github.io&sz=32) [The Unreasonable Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+- 23![](https://www.google.com/s2/favicons?domain=colah.github.io&sz=32) [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- 24![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Recurrent Neural Network Regularization](https://arxiv.org/abs/1409.2329)
+- 25![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Keeping Neural Networks Simple](https://arxiv.org/abs/1412.6544)
+- 26![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Pointer Networks](https://arxiv.org/abs/1506.03134)
+- 27![](https://www.google.com/s2/favicons?domain=papers.nips.cc&sz=32) [ImageNet Classification with Deep CNNs](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
+- 28![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391)
+- 29![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](https://arxiv.org/abs/1811.06965)
+- 30![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- 31![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122)
+- 32![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Neural Message Passing for Quantum Chemistry](https://arxiv.org/abs/1704.01212)
+- 33![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+- 34![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
+- 35![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427)
+- 36![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Variational Lossy Autoencoder](https://arxiv.org/abs/1611.02731)
+- 37![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822)
+- 38![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
+- 39![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Deep Speech 2](https://arxiv.org/abs/1512.02595)
+- 40![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
+- 41![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [A Tutorial on the MDL Principle](https://arxiv.org/abs/0804.2251)
+- 42![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Machine Super Intelligence](https://arxiv.org/abs/2907.03512)
+- 43![](https://www.google.com/s2/favicons?domain=www.springer.com&sz=32) [Kolmogorov Complexity and Algorithmic Randomness](https://www.springer.com/gp/book/9783540208068)
+- 44![](https://www.google.com/s2/favicons?domain=cs231n.stanford.edu&sz=32) [Stanford's CS231n CNN for Visual Recognition](http://cs231n.stanford.edu/)
+- 45![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Quantifying Complexity in Closed Systems](https://arxiv.org/abs/2201.09152)
+
+View All →
+
+### GitHub Repositories
+
+Essential GitHub repositories for LLM development, training, and deployment
+
+- 1![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LangChain](https://github.com/langchain-ai/langchain)
+- 2![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [vLLM](https://github.com/vllm-project/vllm)
+- 3![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- 4![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+- 5![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [FastChat](https://github.com/lm-sys/FastChat)
+- 6![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LocalAI](https://github.com/go-skynet/LocalAI)
+- 7![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LlamaIndex](https://github.com/jerryjliu/llama_index)
+- 8![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [ExLlama](https://github.com/turboderp/exllama)
+- 9![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [PEFT](https://github.com/huggingface/peft)
+- 10![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Transformers](https://github.com/huggingface/transformers)
+- 11![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [GPT4All](https://github.com/nomic-ai/gpt4all)
+- 12![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)
+- 13![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [OpenLLM](https://github.com/bentoml/OpenLLM)
+- 14![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [lit-llama](https://github.com/Lightning-AI/lit-llama)
+- 15![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [CTranslate2](https://github.com/OpenNMT/CTranslate2)
+- 16![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+- 17![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
+- 18![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [MLC-LLM](https://github.com/mlc-ai/mlc-llm)
+- 19![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LMFlow](https://github.com/OptimalScale/LMFlow)
+- 20![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+View All →
+
+### Data Processing Tools
+
+Tools and utilities for processing, cleaning, and preparing LLM training data
+
+- 1![](https://www.google.com/s2/favicons?domain=python.langchain.com&sz=32) [LangChain Text Splitters](https://python.langchain.com/docs/modules/data_connection/document_transformers/)
+- 2![](https://www.google.com/s2/favicons?domain=unstructured.io&sz=32) [Unstructured.io](https://unstructured.io/)
+- 3![](https://www.google.com/s2/favicons?domain=www.llamaindex.ai&sz=32) [LlamaIndex](https://www.llamaindex.ai/)
+- 4![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Cleanlab](https://github.com/cleanlab/cleanlab)
+- 5![](https://www.google.com/s2/favicons?domain=textcortex.com&sz=32) [TextCortex](https://textcortex.com/)
+- 6![](https://www.google.com/s2/favicons?domain=www.deepspeed.ai&sz=32) [DeepSpeed](https://www.deepspeed.ai/)
+- 7![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Doccano](https://github.com/doccano/doccano)
+- 8![](https://www.google.com/s2/favicons?domain=labelstud.io&sz=32) [Label Studio](https://labelstud.io/)
+- 9![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Rubrix](https://github.com/recognai/rubrix)
+- 10![](https://www.google.com/s2/favicons?domain=argilla.io&sz=32) [Argilla](https://argilla.io/)
+- 11![](https://www.google.com/s2/favicons?domain=dataprep.ai&sz=32) [DataPrep.ai](https://dataprep.ai/)
+- 12![](https://www.google.com/s2/favicons?domain=haystack.deepset.ai&sz=32) [Haystack](https://haystack.deepset.ai/)
+- 13![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Datasets CLI](https://github.com/huggingface/datasets-cli)
+- 14![](https://www.google.com/s2/favicons?domain=texthero.org&sz=32) [Texthero](https://texthero.org/)
+- 15![](https://www.google.com/s2/favicons?domain=snorkel.ai&sz=32) [Snorkel](https://snorkel.ai/)
+- 16![](https://www.google.com/s2/favicons?domain=prodi.gy&sz=32) [Prodigy](https://prodi.gy/)
+- 17![](https://www.google.com/s2/favicons?domain=datatorch.io&sz=32) [DataTorch](https://datatorch.io/)
+- 18![](https://www.google.com/s2/favicons?domain=greatexpectations.io&sz=32) [Great Expectations](https://greatexpectations.io/)
+- 19![](https://www.google.com/s2/favicons?domain=kedro.org&sz=32) [Kedro](https://kedro.org/)
+- 20![](https://www.google.com/s2/favicons?domain=wandb.ai&sz=32) [Weights & Biases](https://wandb.ai/)
+- 21![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [PDFPlumber](https://github.com/jsvine/pdfplumber)
+- 22![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Nougat](https://github.com/facebookresearch/nougat)
+- 23![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Grobid](https://github.com/kermitt2/grobid)
+- 24![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [PdfMiner.six](https://github.com/pdfminer/pdfminer.six)
+- 25![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
+- 26![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Camelot](https://github.com/camelot-dev/camelot)
+- 27![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [DocTR](https://github.com/mindee/doctr)
+- 28![](https://www.google.com/s2/favicons?domain=tabula.technology&sz=32) [Tabula](https://tabula.technology/)
+- 29![](https://www.google.com/s2/favicons?domain=developer.adobe.com&sz=32) [Adobe PDF Services API](https://developer.adobe.com/document-services/apis/pdf-services/)
+- 30![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+
+View All →
+
+### Open Source Apps / Projects
+
+Ready-to-use applications and implementations
+
+- 1![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
+- 2![](https://www.google.com/s2/favicons?domain=gpt4all.io&sz=32) [GPT4All](https://gpt4all.io/)
+- 3![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [PrivateGPT](https://github.com/imartinez/privateGPT)
+- 4![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [ChatBot UI](https://github.com/mckaywrigley/chatbot-ui)
+- 5![](https://www.google.com/s2/favicons?domain=open-assistant.io&sz=32) [OpenAssistant](https://open-assistant.io/)
+- 6![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Jan](https://github.com/janhq/jan)
+- 7![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)
+- 8![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LocalGPT](https://github.com/PromtEngineer/localGPT)
+- 9![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer)
+- 10![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [OpenChat](https://github.com/openchatai/OpenChat)
+- 11![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [H2O GPT](https://github.com/h2oai/h2ogpt)
+- 12![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Dalai](https://github.com/cocktailpeanut/dalai)
+- 13![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LangChain](https://github.com/langchain-ai/langchain)
+- 14![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LlamaIndex](https://github.com/jerryjliu/llama_index)
+- 15![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LocalAI](https://github.com/go-skynet/LocalAI)
+- 16![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)
+- 17![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+- 18![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Transformers.js](https://github.com/xenova/transformers.js)
+- 19![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Haystack](https://github.com/deepset-ai/haystack)
+- 20![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [vLLM](https://github.com/vllm-project/vllm)
+- 21![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [GPT4All](https://github.com/nomic-ai/gpt4all)
+- 22![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [PrivateGPT](https://github.com/imartinez/privateGPT)
+- 23![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Flowise](https://github.com/FlowiseAI/Flowise)
+- 24![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Chroma](https://github.com/chroma-core/chroma)
+- 25![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LiteLLM](https://github.com/BerriAI/litellm)
+- 26![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Ollama](https://github.com/jmorganca/ollama)
+- 27![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [OpenLLM](https://github.com/bentoml/OpenLLM)
+- 28![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LMStudio](https://github.com/lmstudio-ai/lmstudio)
+- 29![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Guidance](https://github.com/microsoft/guidance)
+- 30![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Langflow](https://github.com/logspace-ai/langflow)
+- 31![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [FastChat](https://github.com/lm-sys/FastChat)
+- 32![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Text Generation Inference](https://github.com/huggingface/text-generation-inference)
+
+View All →
+
+### Datasets
+
+High-quality datasets and data collections for LLM training
+
+- 1![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [HuggingFace Datasets](https://huggingface.co/datasets)
+- 2![](https://www.google.com/s2/favicons?domain=commoncrawl.org&sz=32) [Common Crawl](https://commoncrawl.org/)
+- 3![](https://www.google.com/s2/favicons?domain=pile.eleuther.ai&sz=32) [The Pile](https://pile.eleuther.ai/)
+- 4![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [RedPajama](https://github.com/togethercomputer/RedPajama-Data)
+- 5![](https://www.google.com/s2/favicons?domain=laion.ai&sz=32) [LAION-400M](https://laion.ai/blog/laion-400-open-dataset/)
+- 6![](https://www.google.com/s2/favicons?domain=openwebtext2.readthedocs.io&sz=32) [OpenWebText2](https://openwebtext2.readthedocs.io/)
+- 7![](https://www.google.com/s2/favicons?domain=www.tensorflow.org&sz=32) [C4 (Colossal Clean Crawled Corpus)](https://www.tensorflow.org/datasets/catalog/c4)
+- 8![](https://www.google.com/s2/favicons?domain=blog.salesforceairesearch.com&sz=32) [WikiText](https://blog.salesforceairesearch.com/the-wikitext-long-term-dependency-language-modeling-dataset/)
+- 9![](https://www.google.com/s2/favicons?domain=datasets.pythonmachinelearning.com&sz=32) [Books3](https://datasets.pythonmachinelearning.com/books3.tar.gz)
+- 10![](https://www.google.com/s2/favicons?domain=archive.org&sz=32) [Stack Exchange Data Dump](https://archive.org/details/stackexchange)
+- 11![](https://www.google.com/s2/favicons?domain=irclogs.ubuntu.com&sz=32) [Ubuntu IRC Logs](https://irclogs.ubuntu.com/)
+- 12![](https://www.google.com/s2/favicons?domain=www.kaggle.com&sz=32) [ArXiv Dataset](https://www.kaggle.com/Cornell-University/arxiv)
+- 13![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [GitHub Code Dataset](https://huggingface.co/datasets/codeparrot/github-code)
+- 14![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [OpenAssistant Conversations](https://huggingface.co/datasets/OpenAssistant/oasst1)
+- 15![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Alpaca Dataset](https://github.com/tatsu-lab/stanford_alpaca)
+- 16![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [ShareGPT](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
+- 17![](https://www.google.com/s2/favicons?domain=oscar-corpus.com&sz=32) [OSCAR](https://oscar-corpus.com/)
+- 18![](https://www.google.com/s2/favicons?domain=www.tensorflow.org&sz=32) [mC4](https://www.tensorflow.org/datasets/catalog/c4#c4multilingual)
+- 19![](https://www.google.com/s2/favicons?domain=www.databricks.com&sz=32) [Dolly Dataset](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
+- 20![](https://www.google.com/s2/favicons?domain=www.statmt.org&sz=32) [WMT Translation Datasets](https://www.statmt.org/wmt23/)
+- 21![](https://www.google.com/s2/favicons?domain=www.ncbi.nlm.nih.gov&sz=32) [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/)
+- 22![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [CodeSearchNet](https://github.com/github/CodeSearchNet)
+- 23![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [MATH Dataset](https://github.com/hendrycks/math)
+- 24![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [GSM8K](https://github.com/openai/grade-school-math)
+- 25![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [BIG-bench](https://github.com/google/BIG-bench)
+- 26![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [MMLU](https://github.com/hendrycks/test)
+- 27![](https://www.google.com/s2/favicons?domain=ai.google.com&sz=32) [Natural Questions](https://ai.google.com/research/NaturalQuestions)
+- 28![](https://www.google.com/s2/favicons?domain=rajpurkar.github.io&sz=32) [SQuAD 2.0](https://rajpurkar.github.io/SQuAD-explorer/)
+- 29![](https://www.google.com/s2/favicons?domain=hotpotqa.github.io&sz=32) [HotpotQA](https://hotpotqa.github.io/)
+- 30![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [TruthfulQA](https://github.com/sylinrl/TruthfulQA)
+- 31![](https://www.google.com/s2/favicons?domain=storage.googleapis.com&sz=32) [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
+- 32![](https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=32) [WebText](https://paperswithcode.com/dataset/webtext)
+- 33![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [BookCorpus](https://huggingface.co/datasets/bookcorpus)
+- 34![](https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=32) [CC-Stories](https://paperswithcode.com/dataset/cc-stories)
+- 35![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [RealNews](https://github.com/rowanz/grover/tree/master/realnews)
+- 36![](https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=32) [Anthropic Constitutional AI](https://www.anthropic.com/constitutional-ai-data)
+- 37![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [ROOTS](https://github.com/bigscience-workshop/roots)
+- 38![](https://www.google.com/s2/favicons?domain=arxiv.org&sz=32) [Pile of Law](https://arxiv.org/abs/2207.00220)
+- 39![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Code Alpaca](https://github.com/sahil280114/codealpaca)
+- 40![](https://www.google.com/s2/favicons?domain=registry.opendata.aws&sz=32) [Multilingual Amazon Reviews](https://registry.opendata.aws/amazon-reviews-ml/)
+
+View All →
+
+### Open Source Models
+
+Collection of open source large language models available for research and deployment
+
+- 1![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Llama-3-405B](https://huggingface.co/meta-llama/Llama-3-405b)
+- 2![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Llama-3-70B](https://huggingface.co/meta-llama/Llama-3-70b)
+- 3![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Llama-3-32B](https://huggingface.co/meta-llama/Llama-3-32b)
+- 4![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Qwen-2.5-72B](https://huggingface.co/Qwen/Qwen2-72B)
+- 5![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Qwen-Coder-2.5](https://huggingface.co/Qwen/Qwen-2.5-CodeLLaMA)
+- 6![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Qwen-2.5-4B](https://huggingface.co/Qwen/Qwen2-4B)
+- 7![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Code Gemma-7B](https://huggingface.co/google/code-gemma-7b)
+- 8![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Code Gemma-2B](https://huggingface.co/google/code-gemma-2b)
+- 9![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Gemma-7B](https://huggingface.co/google/gemma-7b)
+- 10![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1)
+- 11![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+- 12![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)
+- 13![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Zephyr-7B](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)
+- 14![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Llama-2-70B](https://huggingface.co/meta-llama/Llama-2-70b)
+- 15![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [CodeLlama-34B](https://huggingface.co/codellama/CodeLlama-34b-hf)
+- 16![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Falcon-180B](https://huggingface.co/tiiuae/falcon-180B)
+- 17![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Yi-34B](https://huggingface.co/01-ai/Yi-34B)
+- 18![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [MPT-30B](https://huggingface.co/mosaicml/mpt-30b)
+- 19![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [SOLAR-10.7B](https://huggingface.co/upstage/SOLAR-10.7B-v1.0)
+- 20![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Vicuna-13B](https://huggingface.co/lmsys/vicuna-13b-v1.5)
+- 21![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [BLOOM-176B](https://huggingface.co/bigscience/bloom)
+- 22![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Pythia-12B](https://huggingface.co/EleutherAI/pythia-12b)
+- 23![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [StableLM-3B](https://huggingface.co/stabilityai/stablelm-3b-4e1t)
+
+View All →
+
+### LLM Leaderboards
+
+Top benchmarks and leaderboards for comparing LLM performance across different tasks
+
+- 1![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- 2![](https://www.google.com/s2/favicons?domain=chat.lmsys.org&sz=32) [Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard)
+- 3![](https://www.google.com/s2/favicons?domain=tatsu-lab.github.io&sz=32) [AlpacaEval Leaderboard](https://tatsu-lab.github.io/alpaca_eval/)
+- 4![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [MT-Bench Leaderboard](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+- 5![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)
+- 6![](https://www.google.com/s2/favicons?domain=crfm.stanford.edu&sz=32) [HELM Benchmark](https://crfm.stanford.edu/helm/latest/)
+- 7![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [BIG-bench](https://github.com/google/BIG-bench)
+- 8![](https://www.google.com/s2/favicons?domain=cevalbenchmark.com&sz=32) [C-Eval Leaderboard](https://cevalbenchmark.com/static/leaderboard.html)
+- 9![](https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=32) [MMLU Leaderboard](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu)
+- 10![](https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=32) [HumanEval Leaderboard](https://paperswithcode.com/sota/code-generation-on-humaneval)
+- 11![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [AGIEval Benchmark](https://github.com/microsoft/AGIEval)
+- 12![](https://www.google.com/s2/favicons?domain=opencompass.org.cn&sz=32) [OpenCompass Leaderboard](https://opencompass.org.cn/leaderboard-llm)
+- 13![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LongBench Leaderboard](https://github.com/THUDM/LongBench)
+- 14![](https://www.google.com/s2/favicons?domain=www.eleuther.ai&sz=32) [Harness Leaderboard](https://www.eleuther.ai/projects/harness/)
+- 15![](https://www.google.com/s2/favicons?domain=gluebenchmark.com&sz=32) [GLUE Benchmark](https://gluebenchmark.com/leaderboard)
+- 16![](https://www.google.com/s2/favicons?domain=super.gluebenchmark.com&sz=32) [SuperGLUE Benchmark](https://super.gluebenchmark.com/leaderboard)
+- 17![](https://www.google.com/s2/favicons?domain=huggingface.co&sz=32) [Multilingual LEaderboard](https://huggingface.co/spaces/mteb/leaderboard)
+- 18![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [TruthfulQA Leaderboard](https://github.com/sylinrl/TruthfulQA)
+- 19![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Instruction Tuning Benchmark](https://github.com/google-research/google-research/tree/master/instruction_tuning_benchmark)
+- 20![](https://www.google.com/s2/favicons?domain=www.llm-security.org&sz=32) [LLM Security Leaderboard](https://www.llm-security.org/leaderboard)
+
+View All →
+
+### LLM Communities
+
+Active communities and forums for LLM developers, researchers, and enthusiasts
+
+- 1![](https://www.google.com/s2/favicons?domain=discuss.huggingface.co&sz=32) [Hugging Face Forums](https://discuss.huggingface.co/)
+- 2![](https://www.google.com/s2/favicons?domain=www.reddit.com&sz=32) [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/)
+- 3![](https://www.google.com/s2/favicons?domain=www.reddit.com&sz=32) [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
+- 4![](https://www.google.com/s2/favicons?domain=www.reddit.com&sz=32) [r/ArtificialIntelligence](https://www.reddit.com/r/artificial/)
+- 5![](https://www.google.com/s2/favicons?domain=www.reddit.com&sz=32) [r/ChatGPT](https://www.reddit.com/r/ChatGPT/)
+- 6![](https://www.google.com/s2/favicons?domain=www.reddit.com&sz=32) [r/Singularity](https://www.reddit.com/r/singularity/)
+- 7![](https://www.google.com/s2/favicons?domain=discord.gg&sz=32) [LangChain Discord](https://discord.gg/langchain)
+- 8![](https://www.google.com/s2/favicons?domain=wandb.ai&sz=32) [Weights & Biases Community](https://wandb.ai/community)
+- 9![](https://www.google.com/s2/favicons?domain=www.alignmentforum.org&sz=32) [AI Alignment Forum](https://www.alignmentforum.org/)
+- 10![](https://www.google.com/s2/favicons?domain=discord.gg&sz=32) [EleutherAI Discord](https://discord.gg/eleutherai)
+- 11![](https://www.google.com/s2/favicons?domain=mlops.community&sz=32) [MLOps Community](https://mlops.community/)
+- 12![](https://www.google.com/s2/favicons?domain=discord.gg&sz=32) [Papers with Code Discord](https://discord.gg/paperswithcode)
+- 13![](https://www.google.com/s2/favicons?domain=discord.gg&sz=32) [Together.ai Discord](https://discord.gg/together)
+
+View All →
+
+### LLM Deployment
+
+Tools, frameworks, and platforms for deploying and serving LLM applications
+
+- 1![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LangChain](https://github.com/langchain-ai/langchain)
+- 2![](https://www.google.com/s2/favicons?domain=www.llamaindex.ai&sz=32) [LlamaIndex](https://www.llamaindex.ai/)
+- 3![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+- 4![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [vLLM](https://github.com/vllm-project/vllm)
+- 5![](https://www.google.com/s2/favicons?domain=modal.com&sz=32) [Modal](https://modal.com/)
+- 6![](https://www.google.com/s2/favicons?domain=www.runpod.io&sz=32) [RunPod](https://www.runpod.io/)
+- 7![](https://www.google.com/s2/favicons?domain=www.together.ai&sz=32) [Together AI](https://www.together.ai/)
+- 8![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+- 9![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [GGML](https://github.com/ggerganov/ggml)
+- 10![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- 11![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [Text Generation Inference](https://github.com/huggingface/text-generation-inference)
+- 12![](https://www.google.com/s2/favicons?domain=fastapi.tiangolo.com&sz=32) [FastAPI](https://fastapi.tiangolo.com/)
+- 13![](https://www.google.com/s2/favicons?domain=docs.ray.io&sz=32) [Ray Serve](https://docs.ray.io/en/latest/serve/index.html)
+- 14![](https://www.google.com/s2/favicons?domain=wandb.ai&sz=32) [Weights & Biases](https://wandb.ai/)
+- 15![](https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=32) [LangSmith](https://smith.langchain.com/)
+- 16![](https://www.google.com/s2/favicons?domain=github.com&sz=32) [LocalAI](https://github.com/go-skynet/LocalAI)
+- 17![](https://www.google.com/s2/favicons?domain=ollama.ai&sz=32) [Ollama](https://ollama.ai/)
+- 18![](https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=32) [AWS SageMaker](https://aws.amazon.com/sagemaker/)
+- 19![](https://www.google.com/s2/favicons?domain=cloud.google.com&sz=32) [Google Vertex AI](https://cloud.google.com/vertex-ai)
+- 20![](https://www.google.com/s2/favicons?domain=azure.microsoft.com&sz=32) [Azure ML](https://azure.microsoft.com/en-us/services/machine-learning/)
+
+View All →
+
+## Want to List Your Open Source Project?
+
+Send a DM on Twitter/X or Email us,
+
+we will review and list your project here.
+
+[Email Us](mailto:harsha.gadekar@proton.me) [Twitter/X](https://twitter.com/HarshaGadekar)
