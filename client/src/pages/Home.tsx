@@ -12,13 +12,13 @@ export const Home = () => {
     <div className="grid grid-cols-[auto,1fr] min-h-screen relative overflow-hidden bg-gradient-to-b from-background via-background to-background/80">
       <SidebarNav className="border-r border-border/50 backdrop-blur-sm" />
       <div className="flex flex-col">
-        <div className="relative h-[600px] overflow-hidden">
+        <div className="relative h-[400px] overflow-hidden">
           <Meteors className="absolute inset-0" />
-          <main className="container mx-auto px-4 py-12 relative z-10">
+          <main className="container mx-auto px-4 py-8 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-center space-y-6 mb-12"
+              className="text-center space-y-4 mb-8"
             >
               <motion.h1
                 initial={{ scale: 0.9 }}
