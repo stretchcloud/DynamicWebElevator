@@ -14,7 +14,14 @@ import {
   Trophy,
   Users,
   Cloud,
-  Menu
+  Menu,
+  Settings,
+  Brain,
+  BarChart,
+  UserCheck,
+  Library,
+  Bot,
+  BookOpen
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from './button';
@@ -47,23 +54,58 @@ export const SidebarNav = ({ className }: SidebarNavProps) => {
 
   const categories = [
     {
-      id: 'Free Resources',
-      title: 'Free Resources',
-      icon: <Book className="w-4 h-4" />,
+      id: 'Data',
+      title: 'Data',
+      icon: <Database className="w-4 h-4" />,
     },
     {
-      id: 'Video Tutorials',
-      title: 'Video Tutorials',
-      icon: <Video className="w-4 h-4" />,
+      id: 'Fine-Tuning',
+      title: 'Fine-Tuning',
+      icon: <Settings className="w-4 h-4" />,
     },
     {
-      id: 'Academic Courses',
-      title: 'Academic Courses',
+      id: 'Inference',
+      title: 'Inference',
+      icon: <Brain className="w-4 h-4" />,
+    },
+    {
+      id: 'Evaluation',
+      title: 'Evaluation',
+      icon: <BarChart className="w-4 h-4" />,
+    },
+    {
+      id: 'Experience Usage',
+      title: 'Experience Usage',
+      icon: <UserCheck className="w-4 h-4" />,
+    },
+    {
+      id: 'Knowledge Base RAG',
+      title: 'Knowledge Base RAG',
+      icon: <Library className="w-4 h-4" />,
+    },
+    {
+      id: 'Agents',
+      title: 'Agents',
+      icon: <Bot className="w-4 h-4" />,
+    },
+    {
+      id: 'Book',
+      title: 'Book',
+      icon: <BookOpen className="w-4 h-4" />,
+    },
+    {
+      id: 'Course',
+      title: 'Course',
       icon: <GraduationCap className="w-4 h-4" />,
     },
     {
-      id: 'Research Papers',
-      title: 'Research Papers',
+      id: 'Tutorial',
+      title: 'Tutorial',
+      icon: <Video className="w-4 h-4" />,
+    },
+    {
+      id: 'Paper',
+      title: 'Paper',
       icon: <FileText className="w-4 h-4" />,
     },
     {
