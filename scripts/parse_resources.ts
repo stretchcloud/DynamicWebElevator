@@ -64,7 +64,9 @@ function parseResourcesMd(): Resource[] {
             url,
             description: description || currentDescription,
             category: currentCategory,
-            icon_url: `/icons/${currentCategory.toLowerCase().replace(/\s+/g, '-')}.svg`
+            icon_url: url.includes('github.com') 
+              ? `${url.replace('github.com', 'raw.githubusercontent.com')}/main/favicon.ico`
+              : new URL(url).origin + '/favicon.ico'
           });
         }
       }

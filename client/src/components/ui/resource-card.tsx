@@ -1,16 +1,45 @@
 import { motion } from 'framer-motion';
 import { Card } from './card';
 import { cn } from '@/lib/utils';
+import { FileQuestion, Globe } from 'lucide-react';
+import { useState } from 'react';
 
 interface ResourceCardProps {
   title: string;
   description: string;
-  icon: React.ReactNode;
+  icon: React.ReactNode | string;
   index: number;
   isLoading?: boolean;
+  url?: string;
 }
 
-export const ResourceCard = ({ title, description, icon, index, isLoading = false }: ResourceCardProps) => {
+export const ResourceCard = ({ title, description, icon, index, isLoading = false, url }: ResourceCardProps) => {
+  const [imageError, setImageError] = useState(false);
+
+  const renderIcon = () => {
+    if (isLoading) {
+      return <div className="w-6 h-6 rounded-full bg-primary/20" />;
+    }
+
+    if (typeof icon === 'string') {
+      // If icon is a URL, try to load it as an image with fallback
+      if (imageError) {
+        // Show website icon for failed images
+        return <Globe className="w-6 h-6 text-primary" />;
+      }
+      return (
+        <img
+          src={icon}
+          alt=""
+          className="w-6 h-6 object-contain"
+          onError={() => setImageError(true)}
+        />
+      );
+    }
+
+    // If icon is a React node (Lucide icon), render it directly
+    return icon || <FileQuestion className="w-6 h-6 text-primary" />;
+  };
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
