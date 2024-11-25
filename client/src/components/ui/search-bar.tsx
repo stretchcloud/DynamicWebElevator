@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search } from 'lucide-react';
+import { Search, Loader2 } from 'lucide-react';
 import { Input } from './input';
 
 export const SearchBar = () => {
   const [isFocused, setIsFocused] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   return (
     <motion.div
@@ -13,7 +14,11 @@ export const SearchBar = () => {
       className="relative w-full max-w-2xl mx-auto"
     >
       <div className="relative">
-        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
+        {isLoading ? (
+          <Loader2 className="absolute left-3 top-1/2 transform -translate-y-1/2 text-primary animate-spin" />
+        ) : (
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
+        )}
         <Input
           className="w-full pl-10 pr-4 h-12 bg-background/50 backdrop-blur-sm border-muted"
           placeholder="Search resources..."

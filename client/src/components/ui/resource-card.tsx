@@ -7,9 +7,10 @@ interface ResourceCardProps {
   description: string;
   icon: React.ReactNode;
   index: number;
+  isLoading?: boolean;
 }
 
-export const ResourceCard = ({ title, description, icon, index }: ResourceCardProps) => {
+export const ResourceCard = ({ title, description, icon, index, isLoading = false }: ResourceCardProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -26,15 +27,27 @@ export const ResourceCard = ({ title, description, icon, index }: ResourceCardPr
       <Card className={cn(
         "h-full p-6 bg-card/50 backdrop-blur-sm border-muted",
         "hover:border-primary/50 transition-all duration-300",
-        "transform perspective-1000"
+        "transform perspective-1000",
+        isLoading && "animate-pulse"
       )}>
         <div className="flex items-start space-x-4">
           <div className="p-2 rounded-lg bg-primary/10">
-            {icon}
+            {isLoading ? (
+              <div className="w-6 h-6 rounded-full bg-primary/20" />
+            ) : icon}
           </div>
-          <div className="space-y-1">
-            <h3 className="font-semibold text-lg">{title}</h3>
-            <p className="text-sm text-muted-foreground">{description}</p>
+          <div className="space-y-1 flex-1">
+            {isLoading ? (
+              <>
+                <div className="h-6 bg-primary/20 rounded w-3/4" />
+                <div className="h-4 bg-primary/10 rounded w-full" />
+              </>
+            ) : (
+              <>
+                <h3 className="font-semibold text-lg">{title}</h3>
+                <p className="text-sm text-muted-foreground">{description}</p>
+              </>
+            )}
           </div>
         </div>
       </Card>

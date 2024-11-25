@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Book, Video, GraduationCap, FileText } from 'lucide-react';
 import { ResourceCard } from './resource-card';
@@ -26,6 +27,7 @@ const categories = [
 ];
 
 export const CategoryGrid = () => {
+  const [isLoading, setIsLoading] = useState(false);
   return (
     <motion.div 
       initial={{ opacity: 0 }}
@@ -39,6 +41,7 @@ export const CategoryGrid = () => {
           description={category.description}
           icon={category.icon}
           index={index}
+          isLoading={isLoading}
         />
       ))}
     </motion.div>
