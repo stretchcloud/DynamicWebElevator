@@ -1,6 +1,19 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Book, Video, GraduationCap, FileText } from 'lucide-react';
+import { 
+  Book, 
+  Video, 
+  GraduationCap, 
+  FileText, 
+  Github, 
+  Database, 
+  AppWindow, 
+  Table,
+  Box,
+  Trophy,
+  Users,
+  Cloud
+} from 'lucide-react';
 import { MorphingCard } from '../3d/MorphingCard';
 import { FloatingButton } from '../3d/FloatingButton';
 import { useQuery } from '@tanstack/react-query';
@@ -17,28 +30,52 @@ interface Resource {
 
 const categories = [
   {
-    id: 'Free Resources',
-    title: 'Free Resources',
-    description: 'Essential learning materials and tutorials to get started with LLMs',
-    icon: <Book className="w-6 h-6 text-primary" />,
+    id: 'GitHub Repositories',
+    title: 'GitHub Repositories',
+    description: 'Essential GitHub repositories for LLM development, training, and deployment',
+    icon: <Github className="w-6 h-6 text-primary" />,
   },
   {
-    id: 'Video Tutorials',
-    title: 'Video Tutorials',
-    description: 'High-quality video content for visual learners',
-    icon: <Video className="w-6 h-6 text-primary" />,
+    id: 'Data Processing Tools',
+    title: 'Data Processing Tools',
+    description: 'Tools and utilities for processing, cleaning, and preparing LLM training data',
+    icon: <Database className="w-6 h-6 text-primary" />,
   },
   {
-    id: 'Academic Courses',
-    title: 'Academic Courses',
-    description: 'University courses from top institutions covering ML, AI and NLP',
-    icon: <GraduationCap className="w-6 h-6 text-primary" />,
+    id: 'Open Source Apps / Projects',
+    title: 'Open Source Apps / Projects',
+    description: 'Ready-to-use applications and implementations',
+    icon: <AppWindow className="w-6 h-6 text-primary" />,
   },
   {
-    id: 'Research Papers',
-    title: 'Research Papers',
-    description: 'Latest research papers and technical reports in the field',
-    icon: <FileText className="w-6 h-6 text-primary" />,
+    id: 'Datasets',
+    title: 'Datasets',
+    description: 'High-quality datasets and data collections for LLM training',
+    icon: <Table className="w-6 h-6 text-primary" />,
+  },
+  {
+    id: 'Open Source Models',
+    title: 'Open Source Models',
+    description: 'Collection of open source large language models available for research and deployment',
+    icon: <Box className="w-6 h-6 text-primary" />,
+  },
+  {
+    id: 'LLM Leaderboards',
+    title: 'LLM Leaderboards',
+    description: 'Top benchmarks and leaderboards for comparing LLM performance across different tasks',
+    icon: <Trophy className="w-6 h-6 text-primary" />,
+  },
+  {
+    id: 'LLM Communities',
+    title: 'LLM Communities',
+    description: 'Active communities and forums for LLM developers, researchers, and enthusiasts',
+    icon: <Users className="w-6 h-6 text-primary" />,
+  },
+  {
+    id: 'LLM Deployment',
+    title: 'LLM Deployment',
+    description: 'Tools, frameworks, and platforms for deploying and serving LLM applications',
+    icon: <Cloud className="w-6 h-6 text-primary" />,
   },
 ];
 
@@ -62,7 +99,7 @@ export const CategoryGrid = () => {
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="grid grid-cols-2 md:grid-cols-4 gap-4 px-6"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-6"
       >
         {categories.map((category) => (
           <FloatingButton
