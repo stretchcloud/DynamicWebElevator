@@ -1,23 +1,18 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useQuery } from '@tanstack/react-query';
+import { ResourceCard } from './resource-card';
+import { useCategoryStore } from './sidebar-nav';
 import { 
-  Book, 
-  Video, 
-  GraduationCap, 
-  FileText, 
-  Github, 
-  Database, 
-  AppWindow, 
+  Github,
+  Database,
+  AppWindow,
   Table,
   Box,
   Trophy,
   Users,
   Cloud
 } from 'lucide-react';
-import { MorphingCard } from '../3d/MorphingCard';
-import { FloatingButton } from '../3d/FloatingButton';
-import { useQuery } from '@tanstack/react-query';
-import { ResourceCard } from './resource-card';
+import { useState } from 'react';
 
 interface Resource {
   id: number;
@@ -80,7 +75,7 @@ const categories = [
 ];
 
 export const CategoryGrid = () => {
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const { selectedCategory } = useCategoryStore();
 
   const { data: resources, isLoading } = useQuery<Resource[]>({
     queryKey: ['resources', selectedCategory],
@@ -96,29 +91,6 @@ export const CategoryGrid = () => {
 
   return (
     <div className="space-y-8">
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-6"
-      >
-        {categories.map((category) => (
-          <FloatingButton
-            key={category.id}
-            onClick={() => setSelectedCategory(
-              selectedCategory === category.id ? null : category.id
-            )}
-            className={`w-full h-14 ${
-              selectedCategory === category.id ? 'bg-primary/30' : ''
-            }`}
-          >
-            <span className="flex items-center space-x-2">
-              {category.icon}
-              <span>{category.title}</span>
-            </span>
-          </FloatingButton>
-        ))}
-      </motion.div>
-
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
